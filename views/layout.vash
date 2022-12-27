@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Bonsai Multipurpose HTML5 Template | Blog Single Right Sidebar</title>
+        <title>Golang Tutorials | Getting Started with Go</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,7 +39,7 @@
                         <!--Outer Box-->
                         <div class="outer-box clearfix">
                             <div class="logo">
-                                <a href="index.html"><img src="images/main-logo.png" alt="Bonsai"></a>
+                                <a href="index.html"><img src="images/main-logo.png" alt="Getting Started with Go (Golang)"></a>
                             </div>
                             <div class="search-box-btn"><span class="icon fa fa-search"></span></div>
                             <div class="nav-toggler">
@@ -56,10 +56,10 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a alt="Golang Tutorials" href="index.html">Home</a></li>
+                                        <li><a alt="About TechnoFunnel" href="about.html">About</a></li>
+                                        <li><a alt="Services Offered by TechnoFunnel" href="services.html">Services</a></li>
+                                        <li><a alt="Contact TechnoFunnel" href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="hidden-bar-wrapper">
                     <div class="logo text-center">
-                        <a href="index.html"><img src="images/main-logo.png" alt=""></a>
+                        <a href="index.html"><img src="images/main-logo.png" alt="Golang Introduction"></a>
                     </div>
                     <div class="side-menu">
                         <ul class="navigation">
@@ -114,26 +114,26 @@
                                         <h3>Golang Topics</h3>
                                     </div>
                                     <ul class="list">
-                                        <li><a class="clearfix" >Go - Introduction to Golang</a></li>
-                                        <li><a class="clearfix" >Go - Inbuild Packages</a></li>
-                                        <li><a class="clearfix" >Go - Getting Started</a></li>
-                                        <li><a class="clearfix" >Go - Creating Variables</a></li>
-                                        <li><a class="clearfix" >Go - Data Types</a></li>
-                                        <li><a class="clearfix" >Go - Constants</a></li>
-                                        <li><a class="clearfix" >Go - Loops</a></li>
-                                        <li><a class="clearfix" >Go - Conditional Statements</a></li>
-                                        <li><a class="clearfix" >Go - Functions</a></li>
-                                        <li><a class="clearfix" >Go - Functions returning Multiple Values</a></li>
-                                        <li><a class="clearfix" >Go - Anonymous Functions</a></li>
-                                        <li><a class="clearfix" >Go - Variadic Functions</a></li>
-                                        <li><a class="clearfix" >Go - Arrays</a></li>
-                                        <li><a class="clearfix" >Go - Structures</a></li>
-                                        <li><a class="clearfix" >Go - Slice</a></li>
-                                        <li><a class="clearfix" >Go - Interfaces</a></li>
-                                        <li><a class="clearfix" >Go - Error Handling</a></li>
-                                        <li><a class="clearfix" >Go - Pointers</a></li>
-                                        <li><a class="clearfix" >Go - Golang Contants</a></li>
-                                        <li><a class="clearfix" >Go - For Loop in Golang</a></li>
+                                        <li><a alt="Introduction to Go (Golang)" class="clearfix" >Go - Introduction to Golang</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Inbuild Packages</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Getting Started</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Creating Variables</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Data Types</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Constants</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Loops</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Conditional Statements</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Functions</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Functions returning Multiple Values</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Anonymous Functions</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Variadic Functions</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Arrays</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Structures</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Slice</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Interfaces</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Error Handling</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Pointers</a></li>
+                                        <li><a alt="" class="clearfix" >Go - Golang Contants</a></li>
+                                        <li><a alt="" class="clearfix" >Go - For Loop in Golang</a></li>
                                     </ul>
                                 </div>
                                 <div class="widget recent-posts wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
