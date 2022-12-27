@@ -2,10 +2,10 @@
 	@html.block('body',function(model){
         <article class="column-inner">
             <figure class="image-box">
-                <a ><img src="images/resource/blog-image-1.jpg" alt="" title="Blog"></a>
+                <a ><img src="images/resource/blog-image-1.jpg" alt="Golang Tutorials" title="Golang Tutorials"></a>
                 <div class="post-options">
-                    <a  class="plus-icon img-circle"><span class="icon flaticon-share55"></span></a>
-                    <a  class="heart-icon img-circle"><span class="icon flaticon-love149"></span></a>
+                    <a class="plus-icon img-circle"><span class="icon flaticon-share55"></span></a>
+                    <a class="heart-icon img-circle"><span class="icon flaticon-love149"></span></a>
                 </div>
             </figure>
             <div class="lower-part">
@@ -41,23 +41,8 @@
                     </blockquote>
 
                     <p>Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago.</p>
-
-
-                </div>
-
-            </div>
-
-            <div class="share-post">
-                <div class="social-links-rounded">
-                    <strong>Share</strong>
-                    <a href="https://ne-np.facebook.com/TechnoFunnel/" class="facebook"><span class="fa fa-facebook-f"></span></a>
-                    <a href="https://twitter.com/funneltechno" class="twitter"><span class="fa fa-twitter"></span></a>
-                    <a href="https://www.linkedin.com/in/mayank-gupta-profile/" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                    <a href="https://www.youtube.com/channel/UCo-h1M-5M6Y5D4Lgut8ge4w" class="youtube"><span class="fa fa-youtube"></span></a>
-                    <a href="https://www.instagram.com/technofunnel/" class="instagram"><span class="fa fa-instagram"></span></a>
                 </div>
             </div>
-
         </article>
     })
 })
