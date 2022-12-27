@@ -1,0 +1,143 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <!--Content Side-->
+                    <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+                        <section class="blog-container blog-detail no-mar-bottom">
+
+                            <!--Blog Post-->
+                            <div class="blog-post">
+                                <!--Blog Post-->
+                                <div class="blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <article class="column-inner">
+                                        <figure class="image-box">
+                                            <a ><img src="images/resource/blog-image-1.jpg" alt="" title="Blog"></a>
+                                            <div class="post-options">
+                                                <a  class="plus-icon img-circle"><span class="icon flaticon-share55"></span></a>
+                                                <a  class="heart-icon img-circle"><span class="icon flaticon-love149"></span></a>
+                                            </div>
+                                        </figure>
+                                        <div class="lower-part">
+                                            <div class="post-info">
+                                                <a >JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a >TechnoFunnel</a> <span class="bullet">&bull;</span> <a >BY MAYANK GUPTA</a>
+                                            </div>
+                                            <div class="post-title">
+                                                <h1>Maintaining Previous State / Props in React Hooks using “useRef”</h1>
+                                                <h2>Use “useRef” to preserve the previous value of State / Props</h2>
+                                            </div>
+
+                                            <div class="post-text">
+                                                <p>TechnoFunnel presents another article which helps you to understand How to retain previous State or Props value in React. While the React component is re-rendering, user might require to save previous state or props values. We can use useRef Hook in order to preserve the Previous State or Props Value or save some persistent data accross multiple re-rendering of the component</p>
+
+                                                <br>
+                                                <h2>Understanding React “useRef” Hook</h2>
+                                                <h3>Understanding React “useRef” Hook</h3>
+                                                <p>Lets see how to use “useRef” with the help of Example below:</p><br />
+                                                <script src="https://gist.github.com/Mayankgupta688/eee4f6de3655e05d4e7acccb4ed34b9b.js"></script>
+                                                <br>
+                                                <p>In the above URL, we are creating “userName” variable using useRef. This variable now act as a global/common data for the component. We are then rendering the component with the “userName.current” on the screen.
+
+                                                    Once the component is Initially rendered with the “userName” as “Mayank Gupta”, useEffect is called which updates the variable to “TechnoFunnel”. Now everytime the component re-renders the value of “userName” will be “TechnoFunnel”. The useRef data is persistent accross multiple rendering.</p>
+
+
+                                                <h3>Style Guides</h3>
+                                                <p>We will put together a detailed and specific style guide that covers all areas of your brand to ensure that anything produced in the future is on brand.</p>
+                                                <br>
+
+                                                <blockquote>
+                                                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                    <div class="author-title text-right">Jonathan Doe</div>
+                                                </blockquote>
+
+                                                <p>Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago.</p>
+
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="share-post">
+                                            <div class="social-links-rounded">
+                                                <strong>Share</strong>
+                                                <a href="https://ne-np.facebook.com/TechnoFunnel/" class="facebook"><span class="fa fa-facebook-f"></span></a>
+                                                <a href="https://twitter.com/funneltechno" class="twitter"><span class="fa fa-twitter"></span></a>
+                                                <a href="https://www.linkedin.com/in/mayank-gupta-profile/" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                                                <a href="https://www.youtube.com/channel/UCo-h1M-5M6Y5D4Lgut8ge4w" class="youtube"><span class="fa fa-youtube"></span></a>
+                                                <a href="https://www.instagram.com/technofunnel/" class="instagram"><span class="fa fa-instagram"></span></a>
+                                            </div>
+                                        </div>
+
+                                    </article>
+
+                                    <!--About Author-->
+                                    <div class="about-author wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="group-title text-uppercase">
+                                            <h3>About The Author</h3>
+                                            <div class="default-line-left"></div>
+                                        </div>
+                                        <div class="author-desc">
+                                            <div class="author-thumb"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
+                                            <div class="author-info"><strong>Mayank Gupta</strong>&ensp;&bull;&ensp; Webdesigner / CEO</div>
+                                            <div class="text">
+                                                <p>Vice President at BlackRock... Corporate & Online Trainer, Technical Content Creator, Developer (Golang, React, Angular 9, Node, Vue.js, Node, GraphQL, JavaScript, MEAN, MERN) and Cloud Practitioner</p><br />
+                                                <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-profile/">https://www.linkedin.com/in/mayank-gupta-profile/</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <!-- Comment Form -->
+                                    <div class="comment-form wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+
+                                        <div class="group-title text-uppercase">
+                                            <h3>Post a Comment</h3>
+                                            <div class="default-line-left"></div>
+                                        </div>
+
+                                        <!--Comment Form-->
+                                        <form method="post" action="blog.html">
+                                            <div class="row clearfix">
+
+                                                <!--Column-->
+                                                <div class="column col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="form-group">
+                                                        <input type="text" name="username" placeholder="Your Name">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="email" name="email" placeholder="Email">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="text" name="url" placeholder="Website">
+                                                    </div>
+
+                                                </div>
+
+                                                <!--Column-->
+                                                <div class="column col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="form-group">
+                                                        <textarea name="message" placeholder="Your Message"></textarea>
+                                                    </div>
+
+                                                    <div class="form-group text-right">
+                                                        <button class="theme-btn btn-theme-one" type="submit" name="submit-form">Add Comment</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+
+                    </div>
+                    <!--Content Side-->
+    })
+})
