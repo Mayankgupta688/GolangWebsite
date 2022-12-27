@@ -1,0 +1,35 @@
+h1,
+h3,
+h4 {
+    color: black !important;
+    letter-spacing: -0.016em;
+    line-height: 40px;
+    font-size: 32px;
+    margin-bottom: -0.27em;
+    font-style: normal;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 0.79em;
+    line-height: 28px;
+    font-size: 22px;
+    margin-bottom: -0.42em;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    letter-spacing: -0.003em;
+    line-height: 32px;
+    margin-top: 2em;
+    font-size: 20px;
+    margin-bottom: -0.46em;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    word-break: break-word;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 400;
+}
