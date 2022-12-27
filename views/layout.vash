@@ -232,7 +232,86 @@
 
                     </div>
 
-                    @html.block('body')
+                    <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+                <section class="blog-container blog-detail no-mar-bottom">
+
+                    <!--Blog Post-->
+                    <div class="blog-post">
+                        <!--Blog Post-->
+                        <div class="blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+
+                            @html.block('body')
+
+                            <!--About Author-->
+                            <div class="about-author wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="group-title text-uppercase">
+                                    <h3>About The Author</h3>
+                                    <div class="default-line-left"></div>
+                                </div>
+                                <div class="author-desc">
+                                    <div class="author-thumb"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
+                                    <div class="author-info"><strong>Mayank Gupta</strong>&ensp;&bull;&ensp; Webdesigner / CEO</div>
+                                    <div class="text">
+                                        <p>Vice President at BlackRock... Corporate & Online Trainer, Technical Content Creator, Developer (Golang, React, Angular 9, Node, Vue.js, Node, GraphQL, JavaScript, MEAN, MERN) and Cloud Practitioner</p><br />
+                                        <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-profile/">https://www.linkedin.com/in/mayank-gupta-profile/</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Comment Form -->
+                            <div class="comment-form wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+
+                                <div class="group-title text-uppercase">
+                                    <h3>Post a Comment</h3>
+                                    <div class="default-line-left"></div>
+                                </div>
+
+                                <!--Comment Form-->
+                                <form method="post" action="blog.html">
+                                    <div class="row clearfix">
+
+                                        <!--Column-->
+                                        <div class="column col-md-6 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <input type="text" name="username" placeholder="Your Name">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="email" name="email" placeholder="Email">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text" name="url" placeholder="Website">
+                                            </div>
+
+                                        </div>
+
+                                        <!--Column-->
+                                        <div class="column col-md-6 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <textarea name="message" placeholder="Your Message"></textarea>
+                                            </div>
+
+                                            <div class="form-group text-right">
+                                                <button class="theme-btn btn-theme-one" type="submit" name="submit-form">Add Comment</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+            </div>
 
                     <!--Sidebar-->
 
@@ -246,7 +325,7 @@
         <!--Main Footer-->
         <footer class="main-footer">
 
-            <!--Footer Upper-->
+            <!--Footer Upper-->body
             <div class="footer-upper">
                 <div class="auto-container">
                     <div class="clearfix">
