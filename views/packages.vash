@@ -2,62 +2,56 @@
 	@html.block('body',function(model){
         <article class="column-inner">
             <figure class="image-box">
-                <a ><img src="images/resource/blog-image-1.jpg" alt="" title="Blog"></a>
+                <a><img src="images/resource/blog-image-1.jpg" alt="Golang Tutorials" title="Golang Tutorials"></a>
                 <div class="post-options">
-                    <a  class="plus-icon img-circle"><span class="icon flaticon-share55"></span></a>
-                    <a  class="heart-icon img-circle"><span class="icon flaticon-love149"></span></a>
+                    <a class="plus-icon img-circle"><span class="icon flaticon-share55"></span></a>
+                    <a class="heart-icon img-circle"><span class="icon flaticon-love149"></span></a>
                 </div>
             </figure>
             <div class="lower-part">
                 <div class="post-info">
-                    <a >JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a >TechnoFunnel</a> <span class="bullet">&bull;</span> <a >BY MAYANK GUPTA</a>
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
                 </div>
                 <div class="post-title">
-                    <h1>Maintaining Previous State / Props in React Hooks using “useRef”</h1>
-                    <h2>Use “useRef” to preserve the previous value of State / Props</h2>
+                    <h1>Introduction to Golang (Go)</h1>
+                    <h2>Golang is help you to build <strong>Simple, Secure and Scalable</strong> Application</h2>
                 </div>
 
                 <div class="post-text">
-                    <p>TechnoFunnel presents another article which helps you to understand How to retain previous State or Props value in React. While the React component is re-rendering, user might require to save previous state or props values. We can use useRef Hook in order to preserve the Previous State or Props Value or save some persistent data accross multiple re-rendering of the component</p>
+                    <p>Golang is <strong>also known as GO</strong>. It is a Open Source, Procedural and Statically Typed Language
+                        developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is high performing, readable, efficient and simple language to learn.
+                        <br>Following are some of the features of Golang: <br />
+                    </p>
+                    <ul>
+                        <li>Golang provides automatic garbage collection</li>
+                        <li>Golang Provides Type Safety ( Uses Interfaces and Struct )</li>
+                        <li>Golang is great for Concurrent and Parellel Programming</li>
+                        <li>It is Statically Typed Language</li>
+                        <li>Library: It provides a Rich Standard Library</li>
+                        <li>It provides garbage collection</li>
+                        <li>Golang Compilation is fast and Effective</li>
+                        <li>Golang is not Object Oriented Language</li>
+                    </ul>
 
                     <br>
-                    <h2>Understanding React “useRef” Hook</h2>
-                    <h3>Understanding React “useRef” Hook</h3>
-                    <p>Lets see how to use “useRef” with the help of Example below:</p><br />
+                    <h2>Why you Should Learn Go:</h2>
+                    <ul>
+                        <li>Golang has easy learning Curve</li>
+                        <li>Golang has Good Developer Community and Documentation</li>
+                        <li>Golang can create high performing Applications</li>
+                        <li>Great Support in AWS and Googlr Cloud Plateform</li>
+                        <li>One of the fast emerging preference for Machine Learning</li>
+                    </ul>
+
                     <script src="https://gist.github.com/Mayankgupta688/eee4f6de3655e05d4e7acccb4ed34b9b.js"></script>
                     <br>
-                    <p>In the above URL, we are creating “userName” variable using useRef. This variable now act as a global/common data for the component. We are then rendering the component with the “userName.current” on the screen.
-
-                        Once the component is Initially rendered with the “userName” as “Mayank Gupta”, useEffect is called which updates the variable to “TechnoFunnel”. Now everytime the component re-renders the value of “userName” will be “TechnoFunnel”. The useRef data is persistent accross multiple rendering.</p>
-
-
-                    <h3>Style Guides</h3>
-                    <p>We will put together a detailed and specific style guide that covers all areas of your brand to ensure that anything produced in the future is on brand.</p>
-                    <br>
-
                     <blockquote>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         <div class="author-title text-right">Jonathan Doe</div>
                     </blockquote>
 
-                    <p>Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago.</p>
-
-
-                </div>
-
-            </div>
-
-            <div class="share-post">
-                <div class="social-links-rounded">
-                    <strong>Share</strong>
-                    <a href="https://ne-np.facebook.com/TechnoFunnel/" class="facebook"><span class="fa fa-facebook-f"></span></a>
-                    <a href="https://twitter.com/funneltechno" class="twitter"><span class="fa fa-twitter"></span></a>
-                    <a href="https://www.linkedin.com/in/mayank-gupta-profile/" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                    <a href="https://www.youtube.com/channel/UCo-h1M-5M6Y5D4Lgut8ge4w" class="youtube"><span class="fa fa-youtube"></span></a>
-                    <a href="https://www.instagram.com/technofunnel/" class="instagram"><span class="fa fa-instagram"></span></a>
                 </div>
             </div>
-
         </article>
     })
 })

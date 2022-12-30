@@ -114,7 +114,7 @@
                                         <h3>Golang Topics</h3>
                                     </div>
                                     <ul class="list">
-                                        <li><a alt="Introduction to Go (Golang)" class="clearfix" >Go - Introduction to Golang</a></li>
+                                        <li><a alt="Introduction to Go (Golang)" href="introduction-to-golang" class="clearfix" >Go - Introduction to Golang</a></li>
                                         <li><a alt="" class="clearfix" >Go - Inbuild Packages</a></li>
                                         <li><a alt="" class="clearfix" >Go - Getting Started</a></li>
                                         <li><a alt="" class="clearfix" >Go - Creating Variables</a></li>
@@ -200,7 +200,7 @@
                                             </div>
                                             <div class="author-desc">
                                                 <div class="author-thumb"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
-                                                <div class="author-info"><strong>Mayank Gupta</strong>&ensp;&bull;&ensp; Webdesigner / CEO</div>
+                                                <div class="author-info"><strong>Mayank Gupta</strong>&ensp;&bull;&ensp; Web Developer</div>
                                                 <div class="text">
                                                     <p>Vice President at BlackRock... Corporate & Online Trainer, Technical Content Creator, Developer (Golang, React, Angular 9, Node, Vue.js, Node, GraphQL, JavaScript, MEAN, MERN) and Cloud Practitioner</p><br />
                                                     <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-profile/">https://www.linkedin.com/in/mayank-gupta-profile/</a>
