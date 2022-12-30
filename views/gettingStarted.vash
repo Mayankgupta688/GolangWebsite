@@ -9,22 +9,19 @@
                     <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
                 </div>
                 <div class="post-title">
-                    <h1>Introduction to Golang (Go)</h1>
+                    <h1>Getting Started Golang (Go)</h1>
                 </div>
 
                 <div class="post-text">
-                    <p><strong>Golang is also known as GO</strong>. Golang helps you to build <strong>Simple, Secure and Scalable Application</strong>. It is a Open Source, Procedural and Statically Typed Language
-                        developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is high performing, readable, efficient and simple language to learn.
-                    </p>
-                    <h2>Following are some of the features of Golang: </h2>
+                    <p>There are series of tools available for development in Golang. Some of the tools offer specialized features and Extensions. 
+                        For this training, we will be using Visual Studio Code. You can choose from variety of tools available for Golang Development</p><br/>
+                    <h2>Following are some Editors that can be used to write Golang Application: </h2>
                     <ul>
-                        <li>Golang provides Automatic Garbage Collection</li>
-                        <li>Golang Provides Type Safety ( Uses Interfaces and Struct )</li>
-                        <li>Golang is great for Concurrent and Parellel Programming</li>
-                        <li>Golang is Statically Typed Language</li>
-                        <li>Library: Golang provides a Rich Standard Library</li>
-                        <li>Golang Compilation is fast and Effective</li>
-                        <li>Golang is not Object Oriented Language</li>
+                        <li>1. Notepad - Simple Editor to write any Code</li>
+                        <li>2. Notepad++ Extention of Notepad with some enhanced features</li>
+                        <li>3. Visual Studio Code - Free Specialized Editor offered from Microsoft</li>
+                        <li>4. GoLand - Editor Created specially for Golang</li>
+                        <li>There are many more tools that can be used for Golang like "IntelliJ", "Ecliple", "LiteIDE" etc</li>
                     </ul>
 
                     <br>

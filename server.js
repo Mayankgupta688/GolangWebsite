@@ -12,6 +12,10 @@ app.get('/introduction-to-golang', function (_, res) {
     res.render('introduction');
 });
 
+app.get('/getting-stared-with-golang', function (_, res) {
+    res.render('gettingStarted');
+});
+
 var server = app.listen(5000, function () {
     console.log('Server is running..');
 });
