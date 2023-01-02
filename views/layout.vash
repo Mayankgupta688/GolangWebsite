@@ -116,6 +116,7 @@
                                     <ul class="list">
                                         <li><a alt="Introduction to Go (Golang)" href="introduction-to-golang" class="clearfix" >Go - Introduction to Golang</a></li>
                                         <li><a href="getting-stared-with-golang" alt="Introduction to Go (Golang)" class="clearfix" >Go - Getting Started</a></li>
+                                        <li><a href="hello-world-in-golang" alt="Hello World in Go (Golang)" class="clearfix" >Go - Hello World Application</a></li>
                                         <li><a alt="" class="clearfix" >Go - Inbuild Packages</a></li>
                                         <li><a alt="" class="clearfix" >Go - Creating Variables</a></li>
                                         <li><a alt="" class="clearfix" >Go - Data Types</a></li>

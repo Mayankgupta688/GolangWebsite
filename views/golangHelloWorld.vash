@@ -1,0 +1,39 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <article class="column-inner">
+            <figure class="image-box">
+                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+            </figure>
+            <div class="lower-part">
+                <div class="post-info">
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                </div>
+                <div class="post-title">
+                    <h1>Hello World Application in Golang (Go)</h1>
+                </div>
+
+                <div class="post-text"><br/>
+                    <strong>Lets get stared with a Simple Golang Syntax: </strong><br/><br/>
+                    <script src="https://gist.github.com/Mayankgupta688/4748a6fae390625e35f5c8cba90bb6cb.js"></script><br/>
+
+                    <h2>Lets unserstand each line of code in Above Program:</h2>
+                    <ul>
+                        <li><strong>" package main "</strong> - Create package with name "main" to denote that it is Executable File</li>
+                        <li><strong>" import fmt "</strong> - Import Golang Internal Package "fmt" which will help us to Print Data on Command Prompt</li>
+                        <li><strong>" func main() "</strong> - This marks the entry point for Golang Executable Code</li>
+                        <li><strong>" fmt.Println "</strong> - Function used to Print "Hello World" Message on the Screen</li>
+                    </ul><br/>
+
+                    <h2>Packages in Golang File</h2>
+                    <p>Every Go file that we create, should belong to a specific package. Each Golang File will start with a package name on the top. 
+                    <strong>"main"</strong> package is a Special Package name which provide information that the following file is an "Executable File". 
+                    We can create "Golang Files" containing other package name as well. These files can be imported within other files and packages, 
+                    and can provide some independent functionality or some re-usable code. <strong> We will discuss about Package and Modules later in the Tutorial</strong> </p>
+
+                    <p>Since this file contains "package main" which denotes that the file is an Executable file and we can simply run the file using the folllowing Command: <strong>"go run gettingStarted.go"</strong></p><br/>
+                    <img src="/images/golang/codeExecution.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                </div>
+            </div>
+        </article>
+    })
+})

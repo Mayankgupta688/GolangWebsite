@@ -15,7 +15,7 @@
                 <div class="post-text">
                     <p><strong>Golang is also known as GO</strong>. Golang helps you to build <strong>Simple, Secure and Scalable Application</strong>. It is a Open Source, Procedural and Statically Typed Language
                         developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is high performing, readable, efficient and simple language to learn.
-                    </p>
+                    </p><br/>
                     <h2>Following are some of the features of Golang: </h2>
                     <ul>
                         <li>Golang provides Automatic Garbage Collection</li>
@@ -25,7 +25,11 @@
                         <li>Library: Golang provides a Rich Standard Library</li>
                         <li>Golang Compilation is fast and Effective</li>
                         <li>Golang is not Object Oriented Language</li>
-                    </ul>
+                    </ul><br/>
+
+                    <h2>Why Golang was Required ?</h2>
+                    <p>Following are the problems that google developers faced with the existing Language:</p>
+                    <img src="/images/golang/problems.png"/><br/>
 
                     <br>
                     <h2>Why you Should Learn Go:</h2>
@@ -37,6 +41,12 @@
                         <li>One of the Fastest Emerging Preference for Machine Learning</li>
                         <li>Golang is Plateform Independent Language</li>
                     </ul><br/>
+
+                    <img src="/images/golang/benefits.png"/> <br/>
+
+                    <h2>What is Go Good At ?</h2>
+                    <p>Golang can help us create different type of Applications. Given below are few domains where Golang is now used aggressively.</p>
+                    <img src="/images/golang/appTypes.png"/> <br/>
 
                     <h2>Some of the Popular Application developed in Go:</h2>
                     <ul>

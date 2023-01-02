@@ -17,45 +17,44 @@
                         For this training, we will be using Visual Studio Code. You can choose from variety of tools available for Golang Development</p><br/>
                     <h2>Following are some Editors that can be used to write Golang Application: </h2>
                     <ul>
-                        <li>1. Notepad - Simple Editor to write any Code</li>
-                        <li>2. Notepad++ Extention of Notepad with some enhanced features</li>
-                        <li>3. Visual Studio Code - Free Specialized Editor offered from Microsoft</li>
-                        <li>4. GoLand - Editor Created specially for Golang</li>
+                        <li>1. <strong>Notepad</strong> - Simple Editor to write any Code</li>
+                        <li>2. <strong>Notepad++</strong> Extention of Notepad with some enhanced features</li>
+                        <li>3. <strong>Visual Studio Code</strong> - Free Specialized Editor offered from Microsoft</li>
+                        <li>4. <strong>GoLand</strong> - Editor Created specially for Golang</li>
                         <li>There are many more tools that can be used for Golang like "IntelliJ", "Ecliple", "LiteIDE" etc</li>
                     </ul>
 
+                    <strong>** We are going to use <strong>Visual Studio Code</strong> for these Tutorials <a href="https://code.visualstudio.com/download">Click to Install Visual Studio Code</a></strong><br/>
+
+
                     <br>
-                    <h2>Why you Should Learn Go:</h2>
-                    <ul>
-                        <li>Golang has Easy Learning Curve</li>
-                        <li>Golang has Good Developer Community and Documentation</li>
-                        <li>Golang can create High Performing Applications</li>
-                        <li>Great Support in AWS and Google Cloud Plateform</li>
-                        <li>One of the Fastest Emerging Preference for Machine Learning</li>
-                        <li>Golang is Plateform Independent Language</li>
-                    </ul><br/>
+                    <h2>Installing Golang in Local System</h2>
+                    <p>Following are ths links available to download GO in your local system</p>
+                    <div>
+                        <div style="display: inline-block; width: 20%; margin: 10px; padding: 10px; border: 1px solid black;">
+                            <strong>Microsoft Windows</strong><br/>
+                            <label>Windows 7 or later, Intel 64-bit processor</label>
+                            <a style="font-size: 12px;" href="https://go.dev/dl/go1.19.4.windows-amd64.msi">Go 1.19.4 for Windows</a>
+                        </div>
+                    <div style="display: inline-block; width: 20%; margin: 10px; padding: 10px; border: 1px solid black;">
+                            <strong>Apple macOS (ARM64)</strong><br/>
+                            <label>macOS 11 or later, Apple 64-bit processor</label>
+                            <a style="font-size: 12px;" href="https://go.dev/dl/go1.19.4.darwin-arm64.pkg">Go 1.19.4 for Apple (ARM64)</a>
+                        </div>
+                    <div style="display: inline-block; width: 20%; margin: 10px; padding: 10px; border: 1px solid black;">
+                            <strong>Apple macOS (x86-64)</strong><br/>
+                            <label>macOS 10.13 or later, Intel 64-bit processor</label>
+                            <a style="font-size: 12px;" href="https://go.dev/dl/go1.19.4.darwin-amd64.pkg">Go 1.19.4 for Apple (x86-64)</a>
+                        </div>
+                    <div style="display: inline-block; width: 20%; margin: 10px; padding: 10px; border: 1px solid black;">
+                            <strong>Linux</strong><br/>
+                            <label>Linux 2.6.32 or later, Intel 64-bit processor</label>
+                            <a style="font-size: 12px;" href="https://go.dev/dl/go1.19.4.src.tar.gz">Go 1.19.4 for Linux</a>
+                        </div>
+                    </div>
+                    <strong>For any other Go Version or Operating System, use following link: <a href="https://go.dev/dl/" alt="Download Golang">Download</a></strong><br/><br/>
 
-                    <h2>Some of the Popular Application developed in Go:</h2>
-                    <ul>
-                        <li><strong>Docker: </strong>Highly Complex Infrastructure for Container Deployment</li>
-                        <li><strong>DropBox: </strong>Highly Secure Web Application and APIs to store Personal and Professional Data</li>
-                        <li><strong>Kubernetes: </strong>Used for Complex Automated Deployment Process</li>
-                    </ul><br/>
-
-                    <strong>Following is the <a href="https://survey.stackoverflow.co/2022/#technology-most-popular-technologies">Stackoverflow Technology Survey 2022</a>. Golang is rated as top 4 Popular Technologies in 2022 that Developers Love to Learn.</strong><br/><br/>
-
-                    <img src="/images/golang/popularity.png" alt="Golang Tutorials" title="Golang Populality and Scope"><br/><br/>
-
-                    <strong>Given below is the Snapshot of available jobs in Golang Domain on Popular Naukri Portal</strong><br/><br/>
-
-                    <img src="/images/golang/naukri.png" alt="Golang Tutorials" title="Golang Populality and Scope">
-                    <br><br/>
-
-                    <p>The above stats given provide good enough reason for <strong>"Why you should start learning Golang (Go)"</strong></p><br/>
-                    <blockquote>
-                        <p>The technology you use impresses no one. The experience you create with it is everything.</p>
-                        <div class="author-title text-right">Sean Gerety</div>
-                    </blockquote>
+                    <h2>Follow the Video below to Install Golang (Go)</h2>
 
                 </div>
             </div>
