@@ -1,0 +1,64 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <article class="column-inner">
+            <figure class="image-box">
+                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+            </figure>
+            <div class="lower-part">
+                <div class="post-info">
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                </div>
+                <div class="post-title">
+                    <h1>Variables and Data Types in Golang (Go)</h1>
+                </div>
+
+                <div class="post-text"><br/>
+                    <h2>What are Variables in Golang: </h2>
+                    <p>A variable is anything that can change or be changed. 
+                    In other words, it is any factor that can be manipulated, controlled for, or measured in a Program / Language. 
+                    Language contain different types of variables depending on data that need to be stored.</p><br/>
+                                    
+
+                    <h2>Following are the Data Types available in Golang</h2>
+                    <ul>
+                        <li><strong>" Strings "</strong> - Strings are enclosed within Single/Double Quotes or BackTicks</li>
+                        <li><strong>" Numbers "</strong> - Integers(int), Unsigned Integers(uint), Floating Point Numbers(float32, float64)</li>
+                        <li><strong>" Complex Numbers "</strong> - 6.0123543 + 4i These are used to represent complex number system (complex64, complex128)</li>
+                        <li><strong>" Boolean "</strong> - Represent Comparisn Operation and result in either True or False</li>
+                        <li><strong>" Error Type "</strong> - Seperate Type to represent Error Types which contains "nil" in case of no error</li>
+                    </ul><br/>
+
+                    <h2>How to Create Variables in Golang (Go)</h2>
+                    <p><strong>There are 3 Ways to create Variables in Golang</strong>. Lets look into each type with an example</p>
+                    
+                    <code>var userName string</code><br/>
+                    <code>userName = "Mayank Gupta"</code>
+                    <p>Golang is Type Safe Language, In the above code, we are declaring a variable "userName" containing empty string value by default.
+                    In the next line of code, user is adding value to the variable "userName"</p><hr/>
+
+                    <code>var userName string = "TechnoFunnel"</code><br/>
+                    <p>User can provide the value to the variable in the line where it is declared. String value "userName" is assigned with the value "TechnoFunnel" instead of having default value.</p><hr/>
+
+
+                    <code>userName := "Mayank Gupta"</code>
+                    <p>This is the most commonly used method to declare the variable in Golang. Golang compiler interpets the type of variable automatically.
+                    Since value of "userName" variable is set to string, therefore compiler will automatically interpret it as "string".
+                    </p>
+
+                    <h2>Default Values of Variable type in Golang</h2>
+                    <ul>
+                        <li><strong>" Strings "</strong> -Default Value of String variables is set to empty String ("")</li>
+                        <li><strong>" Numbers "</strong> - Number values are defaulted to 0</li>
+                        <li><strong>" Complex Numbers "</strong> - Default value for Complex type is (0+0i)</li>
+                        <li><strong>" Boolean "</strong> - Default value for Complex type is "false"</li>
+                        <li><strong>" Error Type "</strong> - Default value for Complex type is "nil"</li>
+                    </ul><br/>
+
+                    <img src="/images/golang/defaultValue.png" alt="Default Values of Golang Variables" title="Default Values of Golang Variables" /><br/><br/>
+                    
+                    <strong>You can try the same code base at the following link: <a href="https://goplay.tools/snippet/l-ILljLrn9b">Golang Editor</a></strong>
+                </div>
+            </div>
+        </article>
+    })
+})

@@ -20,6 +20,14 @@ app.get('/hello-world-in-golang', function (_, res) {
     res.render('golangHelloWorld');
 });
 
+app.get('/creating-variables-in-golang', function (_, res) {
+    res.render('variablesInGolang');
+});
+
+app.get('/type-conversion-in-golang', function (_, res) {
+    res.render('typeConversion');
+});
+
 var server = app.listen(5000, function () {
     console.log('Server is running..');
 });

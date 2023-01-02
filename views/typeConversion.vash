@@ -1,0 +1,58 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <article class="column-inner">
+            <figure class="image-box">
+                <a><img defer src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+            </figure>
+            <div class="lower-part">
+                <div class="post-info">
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                </div>
+                <div class="post-title">
+                    <h1>Type Conversion in Golang (Go)</h1>
+                </div>
+
+                <div class="post-text"><br/>
+                    <h2>No Implicit Type Conversion in Golang</h2>
+                    <p>Golang do not allow Implicity type conversion while other languages like Java and .NET might provide this feature
+                    User need to explicitely mention the type conversion required. Although user can explicitely specify type conversion.
+                    Lets see few of the scenerios below and evaluate how to ensure error free code</p><br/>
+                                    
+
+                    <h2>Golang will not let user to:</h2>
+                    <ul>
+                        <li>1. Do not Convert <strong>int</strong> to <strong>float</strong> implicitely or Vice Versa</li>
+                        <li>2. No Type Conversion occurs when operation is carried between different types</li>
+                        <li>3. Even "int8" cannot be assigned to "int16" implicitely</li>
+                    </ul><br/>
+
+                    <h2><strong>"int"</strong> Value Cannot be Assigned to <strong>"float32"</strong> Variable implicity</h2>
+                    <p>Assigning <strong>int</strong> value to <strong>float32</strong> value will result in error. Since implicit conversion of data is not allowed.</p>
+                    <img defer src="/images/golang/implicitConversionError.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>In case we want to carry out this operation, we need to ensure that the value assigned to "float" variable is of type "float"
+                    We can ensure the same by explicit type conversion of "int" to "float"</p>
+                    <img defer src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
+
+                    <h2>No Type Conversion occurs when operation carried between different types</h2>
+                    <p>In above code, <strong>int</strong> value is divided with <strong>float</strong> value. Golang results in the error since the types are not same</p>
+                    <img defer src="/images/golang/operationsDifferentTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>Similar to the above case, the following operation results in error since the operation is not carried between similar data types. 
+                    In order to ensure the same, we need to ensure that the operation is carried out between same data type, We can do explicit type conversion</p>    
+                    <img defer src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
+
+                    <h2>Assigning "int8" to "int16" Value</h2>
+                    <p>In above code, <strong>int16</strong> value is assigned to <strong>int16</strong> value. In this case also, Golang will result in error</p>
+                    <img defer src="/images/golang/wrongIntTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>In the above caseas well, the data types are not same. So we need to ensure that the data types are similar before execution</p>    
+                    <img defer src="/images/golang/intTypeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <p>In the above code, <strong>int8</strong> value is conversted to <strong>int16</strong> value before assignment</p><br/><hr/>
+
+                    <h2>Explicit Type Conversion in Golang</h2>
+                    <p>In the above code, we have seen some of the type conversion in Golang. Given below are some other ways to execute explicit type conversion in Golang.</p>
+                </div>
+            </div>
+        </article>
+    })
+})

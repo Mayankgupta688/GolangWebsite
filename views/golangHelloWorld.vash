@@ -30,6 +30,9 @@
                     We can create "Golang Files" containing other package name as well. These files can be imported within other files and packages, 
                     and can provide some independent functionality or some re-usable code. <strong> We will discuss about Package and Modules later in the Tutorial</strong> </p>
 
+                    <p>" func main() " is the executable function that is triggered when we execute "go run gettingStarted.go".
+                    This code block will strat executing immediately and will return "Hello World" message on the console screen</p>
+
                     <p>Since this file contains "package main" which denotes that the file is an Executable file and we can simply run the file using the folllowing Command: <strong>"go run gettingStarted.go"</strong></p><br/>
                     <img src="/images/golang/codeExecution.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
                 </div>
