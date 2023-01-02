@@ -1,8 +1,8 @@
 @html.extend('layout',function(model){
 	@html.block('body',function(model){
-        <article class="column-inner">
+        <section class="column-inner">
             <figure class="image-box">
-                <a><img defer src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
             </figure>
             <div class="lower-part">
                 <div class="post-info">
@@ -18,41 +18,62 @@
                     User need to explicitely mention the type conversion required. Although user can explicitely specify type conversion.
                     Lets see few of the scenerios below and evaluate how to ensure error free code</p><br/>
                                     
+                    <article>     
+                        <h2>Golang will not let user to:</h2>
+                        <ul>
+                            <li>1. Do not Convert <strong>int</strong> to <strong>float</strong> implicitely or Vice Versa</li>
+                            <li>2. No Type Conversion occurs when operation is carried between different types</li>
+                            <li>3. Even "int8" cannot be assigned to "int16" implicitely</li>
+                        </ul><br/>
 
-                    <h2>Golang will not let user to:</h2>
-                    <ul>
-                        <li>1. Do not Convert <strong>int</strong> to <strong>float</strong> implicitely or Vice Versa</li>
-                        <li>2. No Type Conversion occurs when operation is carried between different types</li>
-                        <li>3. Even "int8" cannot be assigned to "int16" implicitely</li>
-                    </ul><br/>
+                        <h2><strong>"int"</strong> Value Cannot be Assigned to <strong>"float32"</strong> Variable implicity</h2>
+                        <p>Assigning <strong>int</strong> value to <strong>float32</strong> value will result in error. Since implicit conversion of data is not allowed.</p>
+                        <img src="/images/golang/implicitConversionError.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In case we want to carry out this operation, we need to ensure that the value assigned to "float" variable is of type "float"
+                        We can ensure the same by explicit type conversion of "int" to "float"</p>
+                        <img src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
 
-                    <h2><strong>"int"</strong> Value Cannot be Assigned to <strong>"float32"</strong> Variable implicity</h2>
-                    <p>Assigning <strong>int</strong> value to <strong>float32</strong> value will result in error. Since implicit conversion of data is not allowed.</p>
-                    <img defer src="/images/golang/implicitConversionError.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>In case we want to carry out this operation, we need to ensure that the value assigned to "float" variable is of type "float"
-                    We can ensure the same by explicit type conversion of "int" to "float"</p>
-                    <img defer src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
+                        <h2>No Type Conversion occurs when operation carried between different types</h2>
+                        <p>In above code, <strong>int</strong> value is divided with <strong>float</strong> value. Golang results in the error since the types are not same</p>
+                        <img src="/images/golang/operationsDifferentTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>Similar to the above case, the following operation results in error since the operation is not carried between similar data types. 
+                        In order to ensure the same, we need to ensure that the operation is carried out between same data type, We can do explicit type conversion</p>    
+                        <img src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
 
-                    <h2>No Type Conversion occurs when operation carried between different types</h2>
-                    <p>In above code, <strong>int</strong> value is divided with <strong>float</strong> value. Golang results in the error since the types are not same</p>
-                    <img defer src="/images/golang/operationsDifferentTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>Similar to the above case, the following operation results in error since the operation is not carried between similar data types. 
-                    In order to ensure the same, we need to ensure that the operation is carried out between same data type, We can do explicit type conversion</p>    
-                    <img defer src="/images/golang/typeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>In the above code, <strong>int</strong> value is conversted to <strong>float32</strong> value before assignment</p><br/><hr/>
+                        <h2>Assigning "int8" to "int16" Value</h2>
+                        <p>In above code, <strong>int16</strong> value is assigned to <strong>int16</strong> value. In this case also, Golang will result in error</p>
+                        <img src="/images/golang/wrongIntTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above caseas well, the data types are not same. So we need to ensure that the data types are similar before execution</p>    
+                        <img src="/images/golang/intTypeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above code, <strong>int8</strong> value is conversted to <strong>int16</strong> value before assignment</p><br/><hr/>
+                    </article> 
 
-                    <h2>Assigning "int8" to "int16" Value</h2>
-                    <p>In above code, <strong>int16</strong> value is assigned to <strong>int16</strong> value. In this case also, Golang will result in error</p>
-                    <img defer src="/images/golang/wrongIntTypes.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>In the above caseas well, the data types are not same. So we need to ensure that the data types are similar before execution</p>    
-                    <img defer src="/images/golang/intTypeConversion.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                    <p>In the above code, <strong>int8</strong> value is conversted to <strong>int16</strong> value before assignment</p><br/><hr/>
-
-                    <h2>Explicit Type Conversion in Golang</h2>
-                    <p>In the above code, we have seen some of the type conversion in Golang. Given below are some other ways to execute explicit type conversion in Golang.</p>
+                    <article> 
+                        <h2>Explicit Type Conversion in Golang</h2>
+                        <h3>"int" to "string" Conversion in Golang</h3>
+                        <p>Lets look for the sample code to convert "int" value to "string" value.</p>
+                        <img src="/images/golang/intToString.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                        <p>In the above code, we are converting "int" to "string" value by using external package "strconv", 
+                        "Itoa" function in this package is used to execute the conversion.</p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/e3a52f4e8b0c59d85ff55296c4ce8bc7.js"></script><br/>
+                        <div style="text-align: center; position: relative; top: -35px;"><a href="https://gist.github.com/Mayankgupta688/e3a52f4e8b0c59d85ff55296c4ce8bc7.js">https://gist.github.com/Mayankgupta688/e3a52f4e8b0c59d85ff55296c4ce8bc7.js</a></div><br/>
+                        
+                        <h3>"string" to "int" Conversion in Golang</h3>
+                        <p>Lets look for the sample code to convert "string" value to "int" value.</p>
+                        <img src="/images/golang/stringToNumber.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                        <p>In the above code, we are converting "string" to "int" value by using external package "strconv", 
+                        "Atoi" function in this package is used to execute the conversion. 
+                        When we are using this function, we get 2 output, first output is converted value and the second value is "error" in case conversion fail.
+                        In the above example, we are not considering error scenerio, therefore we have substituted variable with "_" (Underscore). 
+                        We will talk about this in detail in further tutorial. For now we can consider that "_" is used to avoid values from getting stored in some variables, 
+                        this saves memory in our system, by not storing the variables and values that are not required. </p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/c7629d319998726bd28cd7120f24d8d0.js"></script>
+                        <div style="text-align: center; position: relative; top: -35px;"><a href="https://gist.github.com/Mayankgupta688/c7629d319998726bd28cd7120f24d8d0">https://gist.github.com/Mayankgupta688/c7629d319998726bd28cd7120f24d8d0</a></div><br/>
+                    </article>                 
                 </div>
             </div>
-        </article>
+        </section>
     })
 })
