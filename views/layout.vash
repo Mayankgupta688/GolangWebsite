@@ -7,7 +7,12 @@
         <link href="css/style.css" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <link href="./css/index.css" rel="stylesheet">
+        <link href="./css/index.css" rel="stylesheet" media="print" onload="this.media='all'">
+        <link href="./css/font-awesome.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+        <meta name="description" content="Get started with Golang Tutorials. Contains all the concepts related to Golang."/>
+
+
     </head>
 
     <body>
@@ -27,8 +32,8 @@
                         </div>
                         <div class="top-right">
                             <ul class="clearfix">
-                                <li><span class="icon flaticon-phone325"></span> +91-9711083089</li>
-                                <li><span class="icon flaticon-new48"></span> info@technofunnel.in</li>
+                                <li style="color: white !important;"><span style="color: white !important;" class="icon flaticon-phone325"></span> +91-9711083089</li>
+                                <li style="color: white !important;"><span style="color: white !important;" class="icon flaticon-new48"></span> info@technofunnel.in</li>
                             </ul>
                         </div>
                     </div>
@@ -43,12 +48,12 @@
                             </div>
                             <div class="search-box-btn"><span class="icon fa fa-search"></span></div>
                             <div class="nav-toggler">
-                                <button class="hidden-bar-opener"><i class="fa fa-bars"></i></button>
+                                <button class="hidden-bar-opener" title="Toggle Button"><i class="fa fa-bars"></i></button>
                             </div>
                             <nav class="main-menu">
                                 <div class="navbar-header">
                                     <!-- Toggle Button -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="Toggle Button">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -70,7 +75,7 @@
 
             <section class="hidden-bar right-align">
                 <div class="hidden-bar-closer">
-                    <button class="btn"><i class="fa fa-close"></i></button>
+                    <button  title="Toggle Button" class="btn"><i class="fa fa-close"></i></button>
                 </div>
                 <div class="hidden-bar-wrapper">
                     <div class="logo text-center">
@@ -86,11 +91,11 @@
                     </div>
                     <div class="social-icons">
                         <ul>
-                            <a href="https://ne-np.facebook.com/TechnoFunnel/" class="facebook"><span class="fa fa-facebook-f"></span></a>
-                            <a href="https://twitter.com/funneltechno" class="twitter"><span class="fa fa-twitter"></span></a>
-                            <a href="https://www.linkedin.com/in/mayank-gupta-profile/" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                            <a href="https://www.youtube.com/channel/UCo-h1M-5M6Y5D4Lgut8ge4w" class="youtube"><span class="fa fa-youtube"></span></a>
-                            <a href="https://www.instagram.com/technofunnel/" class="instagram"><span class="fa fa-instagram"></span></a>
+                            <a alt="Social Media Reach" href="https://ne-np.facebook.com/TechnoFunnel/" class="facebook"><span class="fa fa-facebook-f"></span></a>
+                            <a alt="Social Media Reach" href="https://twitter.com/funneltechno" class="twitter"><span class="fa fa-twitter"></span></a>
+                            <a alt="Social Media Reach" href="https://www.linkedin.com/in/mayank-gupta-profile/" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                            <a alt="Social Media Reach" href="https://www.youtube.com/channel/UCo-h1M-5M6Y5D4Lgut8ge4w" class="youtube"><span class="fa fa-youtube"></span></a>
+                            <a alt="Social Media Reach" href="https://www.instagram.com/technofunnel/" class="instagram"><span class="fa fa-instagram"></span></a>
                         </ul>
                     </div>
                 </div>
@@ -118,25 +123,8 @@
                                         <li><a href="getting-stared-with-golang" alt="Introduction to Go (Golang)" class="clearfix" >Go - Getting Started</a></li>
                                         <li><a href="hello-world-in-golang" alt="Hello World in Go (Golang)" class="clearfix" >Go - Hello World Application</a></li>
                                         <li><a href="creating-variables-in-golang" alt="Creating Variables in Golang" class="clearfix" >Go - Creating Variables in Golang</a></li>                                        
-                                        <li><a href="type-conversion-in-golang" alt="Type Conversion in Golang" class="clearfix" >Go - Type Conversion in Golang</a></li>                                        
-                                        <li><a alt="" class="clearfix" >Go - Inbuild Packages</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Creating Variables in Golang</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Data Types</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Constants</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Loops</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Conditional Statements</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Functions</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Functions returning Multiple Values</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Anonymous Functions</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Variadic Functions</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Arrays</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Structures</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Slice</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Interfaces</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Error Handling</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Pointers</a></li>
-                                        <li><a alt="" class="clearfix" >Go - Golang Contants</a></li>
-                                        <li><a alt="" class="clearfix" >Go - For Loop in Golang</a></li>
+                                        <li><a href="type-conversion-in-golang" alt="Type Conversion in Golang" class="clearfix" >Go - Type Conversion in Golang</a></li>
+                                        <li><a href="constant-keyword-in-golang" alt="Constants in Golang" class="clearfix" >Go - Constants in Golang</a></li>                                        
                                     </ul>
                                 </div>
                                 <div class="widget recent-posts wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -354,16 +342,16 @@
             </div>
         </div>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/revolution.min.js"></script>
-        <script src="js/bxslider.js"></script>
-        <script src="js/owl.js"></script>
-        <script src="js/mixitup.js"></script>
-        <script src="js/jquery.fancybox.pack.js"></script>
-        <script src="js/wow.js"></script>
-        <script src="js/script.js"></script>
+        <script defer async src="js/jquery.js"></script>
+        <script defer async src="js/bootstrap.min.js"></script>
+        <script defer async src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script defer async src="js/revolution.min.js"></script>
+        <script defer async src="js/bxslider.js"></script>
+        <script defer async src="js/owl.js"></script>
+        <script defer async src="js/mixitup.js"></script>
+        <script defer async src="js/jquery.fancybox.pack.js"></script>
+        <script defer async src="js/wow.js"></script>
+        <script defer async src="js/script.js"></script>
     </body>
 
 </html>

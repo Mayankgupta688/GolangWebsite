@@ -1,4 +1,5 @@
 var express = require('express');
+const compression = require('compression');
 var app = express();
 
 app.set("view engine", "vash");
@@ -27,6 +28,12 @@ app.get('/creating-variables-in-golang', function (_, res) {
 app.get('/type-conversion-in-golang', function (_, res) {
     res.render('typeConversion');
 });
+
+app.get('/constant-keyword-in-golang', function (_, res) {
+    res.render('constantKeywords');
+});
+
+app.use(compression());
 
 var server = app.listen(5000, function () {
     console.log('Server is running..');

@@ -1,0 +1,76 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <section class="column-inner">
+            <figure class="image-box">
+                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+            </figure>
+            <div class="lower-part">
+                <div class="post-info">
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                </div>
+                <div class="post-title">
+                    <h1>Constant Keywords in Golang (Go)</h1>
+                </div>
+
+                <div class="post-text"><br/>
+                    <article>
+                        <h2>What are Constants in Golang: </h2>
+                        <p>As the name suggest, Constants represents a fixed value that is niot going to change while we are executing a program.
+                        Constant values are fixed and can represent any kind of value. It can contain "float", "int", "string", "boolean", "complex" and any other type of value.
+                        Lets talk about some features of Constant in Golang with the help of an example.</p><br/>
+                    </article>
+
+                    <article>
+                        <h2>Following are the charactersticks of Golang Contants</h2>
+                        <ul>
+                            <li>Contants in Golang can be Implicit/Explicitely Typed</li>
+                            <li>Multiple Constants can be assigned in a Block</li>
+                            <li>Constants can copy value of above declared Contant in case of Block</li>
+                            <li>Values to the Golang Constant should be assigned at Compile Time.</li>
+                        </ul>
+                    </article>
+                                    
+                    <article>
+                        <h2>Golang Constants can be Implicitely Typed</h2>
+                        <p>In this example, we are going to create an "Implicitely Typed" Constant variable. In the below example you can see that we have not attached any 
+                        type with the constant variable. The compiler will interpret it as "Anonymous/Untyped value".</p><br/>
+                        <img src="/images/golang/ImplicitConstant.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above image, you can see that the interpretted type of variable is "untyped". This variable just act as a literal .</p>
+                    </article><br/>
+
+                    <article>
+                        <h2>Creating an Explicitely Typed Constant</h2>
+                        <p>Below Example will give you a explicitely typed Constant value. We are instructing Compiler that any operation that operated on 
+                        this variable need to consider the type safety. It brings more restriction to the code</p><br/>
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above scenario, we can see now that the variable is explicitely typed to string and when you hover over the value. 
+                        It do not states "Untyped". Instead it provides the actual type of this value.</p>
+                    </article><br/>
+
+                    <article>
+                        <h2>Constants can be assigned to another Constant values</h2>
+                        <p>Golang has no problem assigning value to contant, if it is done at compile time. If the 
+                        value of variable is not available at compile time, it will result in an error.</p><br/>
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above example, the value of constant "userAge" can be assigned at compile time itself. The value will be simply copied to the variable userCorrectAge. 
+                        And hence the code will not result in an error</p>
+
+                        <p>Whereas in the below code, we can see that the value to the constant can be assigned only when the function executes (Runtime), so the following code gives us error.
+                        Values to the constant must be available at Compile Time Only</p>
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    </article>
+
+                    <article>
+                        <h2>Declaring Multiple Constants in Golang</h2>
+                        <p>We can create multiple constant value in a same block of code. Below is an example where multiple constant are created and assigned with initial value</p><br/>
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+
+                        <p>When the constant value declared in a block is not assigned with a value, in that case the value of constant will be same as above constant. Lets see the same with the help of an example</p>
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above code, useAge is assigned with value 10, since the next variable "updatedAge", is not provided with any value, it will copy the same value from above.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    })
+})
