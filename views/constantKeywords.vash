@@ -28,13 +28,13 @@
                             <li>Constants can copy value of above declared Contant in case of Block</li>
                             <li>Values to the Golang Constant should be assigned at Compile Time.</li>
                         </ul>
-                    </article>
+                    </article><br/>
                                     
                     <article>
                         <h2>Golang Constants can be Implicitely Typed</h2>
                         <p>In this example, we are going to create an "Implicitely Typed" Constant variable. In the below example you can see that we have not attached any 
                         type with the constant variable. The compiler will interpret it as "Anonymous/Untyped value".</p><br/>
-                        <img src="/images/golang/ImplicitConstant.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <img src="/images/golang/ImplicitConstant.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/>
                         <p>In the above image, you can see that the interpretted type of variable is "untyped". This variable just act as a literal .</p>
                     </article><br/>
 
@@ -42,32 +42,34 @@
                         <h2>Creating an Explicitely Typed Constant</h2>
                         <p>Below Example will give you a explicitely typed Constant value. We are instructing Compiler that any operation that operated on 
                         this variable need to consider the type safety. It brings more restriction to the code</p><br/>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/>
                         <p>In the above scenario, we can see now that the variable is explicitely typed to string and when you hover over the value. 
                         It do not states "Untyped". Instead it provides the actual type of this value.</p>
                     </article><br/>
 
                     <article>
-                        <h2>Constants can be assigned to another Constant values</h2>
+                        <h2>Constants can be assigned to another Constant Values</h2>
                         <p>Golang has no problem assigning value to contant, if it is done at compile time. If the 
                         value of variable is not available at compile time, it will result in an error.</p><br/>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <img src="/images/golang/oneConstantToOther.png" alt="Constant assigned to another Constant" title="Assigning one constant value to other constant value" /><br/><br/>
                         <p>In the above example, the value of constant "userAge" can be assigned at compile time itself. The value will be simply copied to the variable userCorrectAge. 
                         And hence the code will not result in an error</p>
 
                         <p>Whereas in the below code, we can see that the value to the constant can be assigned only when the function executes (Runtime), so the following code gives us error.
                         Values to the constant must be available at Compile Time Only</p>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <img src="/images/golang/runtimeValueForConstant.png" alt="Golang Tutorials" title="Constant value should not be available during runtime" />
                     </article>
 
                     <article>
                         <h2>Declaring Multiple Constants in Golang</h2>
                         <p>We can create multiple constant value in a same block of code. Below is an example where multiple constant are created and assigned with initial value</p><br/>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <img src="/images/golang/multipleConstants.png" alt="Golang Tutorials" title="Multiple Constants can be created using a Block Statement" /><br/><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/a13422ba97ee5c946ff58daed1ecc424.js"></script><br/>
 
                         <p>When the constant value declared in a block is not assigned with a value, in that case the value of constant will be same as above constant. Lets see the same with the help of an example</p>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                        <p>In the above code, useAge is assigned with value 10, since the next variable "updatedAge", is not provided with any value, it will copy the same value from above.</p>
+                        <img src="/images/golang/ConstantValueCopied.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                        <p>In the above code, userOtherName is assigned with value "Mayank Gupta", since the constant, is not provided with any value, it will copy the same value from above constant "userName".</p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/44d6624add98a2f5f36ad1b8de7b989e.js"></script>
                     </article>
                 </div>
             </div>
