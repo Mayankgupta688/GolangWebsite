@@ -1,0 +1,67 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <section class="column-inner">
+            <figure class="image-box">
+                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+            </figure>
+            <div class="lower-part">
+                <div class="post-info">
+                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                </div>
+                <div class="post-title">
+                    <h1>What is "iota" Keyword in Golang (Go)</h1>
+                </div>
+
+                <div class="post-text"><br/>
+                    <article>
+                        <h2>When and How to use Iota in Golang: </h2>
+                        <p>Iota can be used while declaring Contants to represent the increating Sequence of values. 
+                        When <strong>Iota</strong> is used for the first time, it take initial value as the index value in the "const" block. 
+                        It is used to create incrementing constants in Golang. Let me explain this with the help of an example.</p><br/>
+                    </article>
+
+                    <article>
+                        <h2>Initial Value of "iota" will be equal to index value of occurence of IOTA</h2>
+                        <p>In the below code, we can see that the "iota" exists at the index 0 while declaring the constant (Indexing starts with 0 value). We can also say thet since the 
+                        "TechnoFunnel" is allocated with "IOTA" value and exists at the first location in "cont" block, it will be assigned initial value as 0</p>  <br/>    
+                        <img src="/images/golang/iotaValues.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                        <p>As we can see in the above image the value of "TechnoFunnel" is assigned as 0, because "TechnoFunnel" exists at first location
+                        Now since other variables are not assigned with the value, it will increment the previous value of "iota" and will assign it to next Constant "Training". Now 
+                        "Training" is assigned with value "1". Similarly, the value is not assigned to next variable "Consultancy", 
+                        It will copy the value assigned to "Training" and add 1 to the same and assign to this variable</p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/1760184410b0438f33c32a19e9039add.js"></script>
+                    </article><br/>
+
+                    <article>
+                        <h2>IOTA value represents Index Value in Golang</h2>
+                        <p>In the code below, we can see that the variable "TechnoFunnel" at index 0 is assigned with the value 100. We are then using "iota" to assign value to "Training" Variable
+                        Here the index value in constant declaration sequence is 1. Remember the index value starts from 0. Since the index is equal to "1" in above case while declaring "Training" variable, "1" will be assigned to "Training"
+                        "1" will be added to the initial "iota" value and will be assigned to next variable "Consultancy". So consultancy will have value 2 and so on.</p><br/>      
+                        <img src="/images/golang/indexValueinIota.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                        <p>So as per the example we can see that the value of IOTA is equal to index of variable in constant value declaration. 
+                        This can be used only when we are declaring multiple variable in "const" block.</p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/3bcafc39d5c88661c6396ae2cd1b1170.js"></script>
+                    </article><br/>
+
+                    <article>
+                        <h2>IOTA value can be used similarly in case we have multiple Constant blocks</h2>
+                        <p>Code below represents the scenerio, where the "iota" resets to 0 again, in case we use the keyword in another Constant Block. 
+                        So the value is independent in each Constant block and resets to 0</p><br/>
+                        <img src="/images/golang/iotaResets.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                        <p>"TechnoFunnel" and "UserOne" belongs to different constant block. We are using "iota" in both the cases. 
+                        We can see that the value of "TechnoFunnel" and "UserOne" is behaving independently since they belong to different constant blocks</p><br/>
+                        <script src="https://gist.github.com/Mayankgupta688/2dea937f2bc20d033d9c018eb5412262.js"></script>
+                    </article><br/>
+
+
+                    <strong>For more Examples, you can follow the following blog:</strong>
+                    <ul>
+                        <li><a href="https://www.gopherguides.com/articles/how-to-use-iota-in-golang">www.gopherguides.com/articles/how-to-use-iota-in-golang</a></li>
+                        <li><a href="https://www.tutorialspoint.com/how-to-use-iota-in-golang">www.tutorialspoint.com/how-to-use-iota-in-golang</a></li>
+                        <li><a href="https://yourbasic.org/golang/iota/">yourbasic.org/golang/iota/</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    })
+})
