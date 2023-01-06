@@ -45,7 +45,7 @@ app.get('/introduction-to-pointers-in-golang', function (_, res) {
 
 app.use(compression());
 
-app.listen(5000, function () {
+app.listen(80, function () {
     console.log('Server is running..');
 });
 
