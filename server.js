@@ -42,7 +42,6 @@ app.get('/introduction-to-pointers-in-golang', function (_, res) {
 });
 
 
-
 app.use(compression());
 
 app.listen(80, function () {
