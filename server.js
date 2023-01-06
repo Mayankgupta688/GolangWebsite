@@ -29,8 +29,16 @@ app.get('/type-conversion-in-golang', function (_, res) {
     res.render('typeConversion');
 });
 
+app.get('/constant-keyword-in-golang', function (_, res) {
+    res.render('constantKeywords');
+});
+
 app.get('/iota-keyword-in-golang', function (_, res) {
     res.render('iotaInGolang');
+});  
+
+app.get('/introduction-to-pointers-in-golang', function (_, res) {
+    res.render('workingWithPointers');
 });
 
 
