@@ -9,32 +9,42 @@
                     <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
                 </div>
                 <div class="post-title">
-                    <h1>Hello World Application in Golang (Go)</h1>
+                    <h1>Hello World Application in Golang (Go)</h1><br/>
+                    <p>"Hello World" is ussally the first bit of code that user creates while learning any new language. We would like to guide you with simple 
+                    steps to print "Hello World" on the ternimal using <strong>Golang/Go</strong></p>
                 </div>
 
                 <div class="post-text"><br/>
                     <strong>Lets get stared with a Simple Golang Syntax: </strong><br/><br/>
-                    <script src="https://gist.github.com/Mayankgupta688/4748a6fae390625e35f5c8cba90bb6cb.js"></script><br/>
+                    <script title="https://gist.github.com/Mayankgupta688/4748a6fae390625e35f5c8cba90bb6cb#file-gettingstarted-go" src="https://gist.github.com/Mayankgupta688/4748a6fae390625e35f5c8cba90bb6cb.js"></script><br/>
 
-                    <h2>Lets unserstand each line of code in Above Program:</h2>
+                    <h2>Lets understand each line of code in Above Program:</h2>
                     <ul>
-                        <li><strong>" package main "</strong> - Create package with name "main" to denote that it is Executable File</li>
-                        <li><strong>" import fmt "</strong> - Import Golang Internal Package "fmt" which will help us to Print Data on Command Prompt</li>
-                        <li><strong>" func main() "</strong> - This marks the entry point for Golang Executable Code</li>
-                        <li><strong>" fmt.Println "</strong> - Function used to Print "Hello World" Message on the Screen</li>
+                        <li><strong>package main</strong> - Create package with name "main" to denote that it is Executable File</li>
+                        <li><strong>import fmt</strong> - Import Golang Internal Package "fmt" which will help us to Print Data on Command Prompt</li>
+                        <li><strong>func main()</strong> - This marks the entry point for Golang Executable Code</li>
+                        <li><strong>fmt.Println</strong> - Function used to Print "Hello World" Message on the Screen</li>
                     </ul><br/>
 
-                    <h2>Packages in Golang File</h2>
+                    <p>The above code simply displays a console message "Hello World" by creating a file and marking it as an executable file by putting <strong>package main</strong> on the top.
+                    By creating <strong>func main()</strong>, it represents the starting point of execution. During Execution, User prints "Hello World" by simply using <strong>Println</strong> functionality available in <strong>fmt</strong> package.</p><hr/><br/>
+
+                    <h2>What are Packages in Golang/Go ?</h2>
+                    <p>To provide a general understanding, <strong>Packages</strong> in Golang represents a set of reusable functionalities. It can be seen as a library containing set of related features. 
+                    In the code above we saw that function that can provide/display some message on the console is a part of <strong>fmt</strong> package. We imported the required package and used <strong>Println</strong> function within that package
+                    Similarly there are other packages like <strong>"strings"</strong>, as the name suggest,
+                    It contains set of function and features that can be used to manuplate "strings" in Golang. Lets understand a bit more about the Packages below.</p>
+                    
                     <p>Every Go file that we create, should belong to a specific package. Each Golang File will start with a package name on the top. 
                     <strong>"main"</strong> package is a Special Package name which provide information that the following file is an "Executable File". 
                     We can create "Golang Files" containing other package name as well. These files can be imported within other files and packages, 
-                    and can provide some independent functionality or some re-usable code. <strong> We will discuss about Package and Modules later in the Tutorial</strong> </p>
+                    and can provide some independent functionality or some re-usable code. </p>
 
-                    <p>" func main() " is the executable function that is triggered when we execute "go run gettingStarted.go".
-                    This code block will strat executing immediately and will return "Hello World" message on the console screen</p>
+                    <p><strong>"func main()"</strong> is the first function that is triggered when we execute "go run gettingStarted.go".
+                    This code block will start executing immediately and will return "Hello World" message on the console screen</p><br/><br/>
 
-                    <p>Since this file contains "package main" which denotes that the file is an Executable file and we can simply run the file using the folllowing Command: <strong>"go run gettingStarted.go"</strong></p><br/>
-                    <img src="/images/golang/codeExecution.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+                    <img src="/images/golang/codeExecution.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/><br/>
+                    <h3>** We will discuss about Package and Modules later in the Tutorial</h3>   
                 </div>
             </div>
         </article>

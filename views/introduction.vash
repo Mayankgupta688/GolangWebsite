@@ -13,11 +13,12 @@
                 </div>
 
                 <div class="post-text">
-                    <p><strong>Golang is also known as GO</strong>. Golang helps you to build <strong>Simple, Secure and Scalable Application</strong>. It is a Open Source, Procedural and Statically Typed Language
-                        developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is high performing, readable, efficient and simple language to learn.
+                    <p><strong>Golang is also known as GO</strong>. Golang helps you to build <strong>Simple, Secure and Scalable Application</strong>. <strong>Golang</strong> is an Open Source, Procedural and Statically Typed Language
+                        Developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. <strong>Go</strong> is High Performing, Readable, Efficient and Simple Language to Learn.
                     </p><br/>
-                    <h2>Following are some of the features of Golang: </h2>
-                    <ul>
+                    <h2>Following are some of the Features of Golang: </h2>
+                    <p>Lets look for the features of Golang that makes this language distinct from other languages:</p>
+                    <ol type="1">
                         <li>Golang provides Automatic Garbage Collection</li>
                         <li>Golang Provides Type Safety ( Uses Interfaces and Struct )</li>
                         <li>Golang is great for Concurrent and Parellel Programming</li>
@@ -25,14 +26,18 @@
                         <li>Library: Golang provides a Rich Standard Library</li>
                         <li>Golang Compilation is fast and Effective</li>
                         <li>Golang is not Object Oriented Language</li>
-                    </ul><br/>
+                    </ol><hr/><br/>
 
                     <h2>Why Golang was Required ?</h2>
-                    <p>Following are the problems that google developers faced with the existing Language:</p>
-                    <img src="/images/golang/problems.png"/><br/>
+                    <p>Inspiration of any new language is the Outcome of Challenges faced by Developers in the Existing Languages. 
+                    Following are some of the problems that google developers faced and tried to resolve the same using <strong>Golang</strong>. 
+                    Given below is a small comparison between Golang and other Famous and Existing Languages like C++ and Python</p>
+                    <img src="/images/golang/problems.png"/><hr/>
 
                     <br>
                     <h2>Why you Should Learn Go:</h2>
+                    <p>Switching from one language to another always requires a lot of Efforts and Hardwork. So it is very important to understand the need to learn a new framework like Golang.
+                    Below are some of the reasons why learning Golang is good for your career and organization</p>
                     <ul>
                         <li>Golang has Easy Learning Curve</li>
                         <li>Golang has Good Developer Community and Documentation</li>
@@ -42,29 +47,41 @@
                         <li>Golang is Plateform Independent Language</li>
                     </ul><br/>
 
-                    <img src="/images/golang/benefits.png"/> <br/>
+                    <img src="/images/golang/benefits.png"/> <hr/><br/>
 
                     <h2>What is Go Good At ?</h2>
-                    <p>Golang can help us create different type of Applications. Given below are few domains where Golang is now used aggressively.</p>
-                    <img src="/images/golang/appTypes.png"/> <br/>
+                    <p>In order to be Efficiant and Effective, any language need to be dynamic and should be able to serve multiple requirements. 
+                    Golang is one such framework which can help us create different type of Applications. 
+                    Given below are few domains where Golang is now used aggressively.</p>
+                    <img src="/images/golang/appTypes.png"/> <br/><br/>
 
                     <h2>Some of the Popular Application developed in Go:</h2>
                     <ul>
                         <li><strong>Docker: </strong>Highly Complex Infrastructure for Container Deployment</li>
                         <li><strong>DropBox: </strong>Highly Secure Web Application and APIs to store Personal and Professional Data</li>
                         <li><strong>Kubernetes: </strong>Used for Complex Automated Deployment Process</li>
-                    </ul><br/>
+                    </ul><hr/><br/>
 
-                    <strong>Following is the <a href="https://survey.stackoverflow.co/2022/#technology-most-popular-technologies">Stackoverflow Technology Survey 2022</a>. Golang is rated as top 4 Popular Technologies in 2022 that Developers Love to Learn.</strong><br/><br/>
+                    <strong>Following is the <a href="https://survey.stackoverflow.co/2022/#technology-most-popular-technologies">Stackoverflow Technology Survey 2022</a>. Golang is rated as top 4 Popular Technologies in 2022 that Developers Love to Learn.</strong><br/>
+                    
+                    <p>A Developer should have a habit of exploring whats new in the market. Technology Survey can be the best place where a Developer can explore the 
+                    upcoming market and gets to know about preference of other Developers and Corporates. We can easily explore where the market is heading and 
+                    which domains/framework are going to be in-demand next year. Lets look for the Survey and explore what it says about <strong>Golang</strong></p> <br/>
+
 
                     <img src="/images/golang/popularity.png" alt="Golang Tutorials" title="Golang Populality and Scope"><br/><br/>
 
-                    <strong>Given below is the Snapshot of available jobs in Golang Domain on Popular Naukri Portal</strong><br/><br/>
+                    <p>The next big question after learning a specific technology are:</p>
+                    <ol type="1">
+                        <li>What Job Opprtunities do we have for this Skill ?</li>
+                        <li>Do the Language have any market Demand ?</li>
+                        <li>Will I get Job in my Preffered Location ?</li>
+                    </ol>
 
-                    <img src="/images/golang/naukri.png" alt="Golang Tutorials" title="Golang Populality and Scope">
+                    <p>Given below is the Snapshot of Nauki Portal that can help you answer the same.</p><br/>
+
+                    <img src="/images/golang/naukri.png" alt="Golang Tutorials" title="Golang Populality and Scope"><hr/>
                     <br><br/>
-
-                    <p>The above stats given provide good enough reason for <strong>"Why you should start learning Golang (Go)"</strong></p><br/>
                     <blockquote>
                         <p>The technology you use impresses no one. The experience you create with it is everything.</p>
                         <div class="author-title text-right">Sean Gerety</div>

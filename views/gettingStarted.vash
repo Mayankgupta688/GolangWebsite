@@ -13,8 +13,11 @@
                 </div>
 
                 <div class="post-text">
-                    <p>There are series of tools available for development in Golang. Some of the tools offer specialized features and Extensions. 
-                        For this training, we will be using Visual Studio Code. You can choose from variety of tools available for Golang Development</p><br/>
+                    <p>Getting started with a new Technology is one of the most phase. Once the user start learning the basics of the technology, the journey becomes easier.
+                        In these tutorials, we are trying to make that Journey/Transition easier. The Website will guide you through the basics of Golang and help you 
+                        develop understanding regarding this amazing language. We will guide you with the tools and setup required to get started with Golang. Lets start with the tools required to get started.<br/><br/>
+                        There are series of tools available for development in Golang. Some of the tools offer specialized features and Extensions. 
+                        For this training, we will be using <strong>Visual Studio Code</strong>. You can choose from variety of Tools/Editors available for Golang Development</p><br/>
                     <h2>Following are some Editors that can be used to write Golang Application: </h2>
                     <ul>
                         <li>1. <strong>Notepad</strong> - Simple Editor to write any Code</li>
@@ -55,6 +58,7 @@
                     <strong>For any other Go Version or Operating System, use following link: <a href="https://go.dev/dl/" alt="Download Golang">Download</a></strong><br/><br/>
 
                     <h2>Follow the Video below to Install Golang (Go)</h2>
+                    <p>TODO: Create a small video demonstrating the setup for Golang</p>
 
                 </div>
             </div>
