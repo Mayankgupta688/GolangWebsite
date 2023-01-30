@@ -21,12 +21,12 @@
 
                     <h2>Following are the Data Types available in Golang</h2>
                     <ul>
-                        <li><strong>" Strings "</strong> - Strings are enclosed within Single/Double Quotes or BackTicks</li>
-                        <li><strong>" Numbers "</strong> - Integers(int), Unsigned Integers(uint), Floating Point Numbers(float32, float64)</li>
-                        <li><strong>" Complex Numbers "</strong> - 6.0123543 + 4i These are used to represent complex number system (complex64, complex128)</li>
-                        <li><strong>" Boolean "</strong> - Represent Comparisn Operation and result in either True or False</li>
-                        <li><strong>" Error Type "</strong> - Seperate Type to represent Error Types which contains "nil" in case of no error</li>
-                    </ul><br/>
+                        <li><strong>Strings</strong> - Strings are enclosed within Single/Double Quotes or BackTicks</li>
+                        <li><strong>Numbers</strong> - Integers(int), Unsigned Integers(uint), Floating Point Numbers(float32, float64)</li>
+                        <li><strong>Complex Numbers</strong> - 6.0123543 + 4i These are used to represent complex number system (complex64, complex128)</li>
+                        <li><strong>Boolean</strong> - Represent Comparisn Operation and result in either True or False</li>
+                        <li><strong>Error Type</strong> - Seperate Type to represent Error Types which contains "nil" in case of no error</li>
+                    </ul><hr/><br/>
 
                     <h2>How to Create Variables in Golang (Go)</h2>
                     <p><strong>There are 3 Ways to create Variables in Golang</strong>. Lets look into each type with an example</p>
