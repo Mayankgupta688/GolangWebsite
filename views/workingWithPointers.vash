@@ -9,68 +9,50 @@
                     <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
                 </div>
                 <div class="post-title">
-                    <h1>Working with Pointers in Golang (Go)</h1>
+                    <h1>Working with Arrays in Golang (Go)</h1>
                 </div>
 
                 <div class="post-text"><br/>
                     <article>
-                        <h2>How to use Pointers in Golang: </h2>
-                        <p>As the name suggest, Constants represents a fixed value that is niot going to change while we are executing a program.
-                        Constant values are fixed and can represent any kind of value. It can contain "float", "int", "string", "boolean", "complex" and any other type of value.
-                        Lets talk about some features of Constant in Golang with the help of an example.</p><br/>
+                        <h2>How to use Arrays in Golang: </h2>
+                        <p>Array is a fixed size collection of data elements of same type. It contains related set of Data. Arrays are declared as variables</p><br/>
+                        <code>var arr [3]int</code>
+                        <p>In the Above code we are declaring array of 3 Integers having a default value as 0, since default value of "int" in golang is 0. 
+                        Given below is the memory representation for the array</p>     
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/> 
                     </article>
 
                     <article>
-                        <h2>Following are the charactersticks of Golang Contants</h2>
+                        <h2>Declaring Array in Golang using Array Literal</h2>
+                        <p>Another way to declare array in Golang is to use array literal. In the below code we have created a new array containing 
+                        3 values. The value at index 0 is 10, value at index 1 is 20 and value at index 2 is 30. </p><br/>
+                        <code>arr = [3]int{10, 20, 30}</code>
+                        <p>We can access the value of an array using the index. As given in the above code, we can access the value 10 by using the following
+                        code. "arr[0]" represents value at index 0 which is equal to 10.</p>     
+                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/> 
+                    </article>
+
+                    <article>
+                        <h2>Getting the Length of Array</h2>
+                        <p>We can simply get the length of array by using the "len" function. The code below specifies the simple code to extract the length of an array.</p>
+                    </article><br/>
+
+                    <article>
+                        <h2>Arrays are Copied by Value</h2>
+                        <p>Assignement of Array to another variable is a copy operation. In this case a copy operation is carried out and the values are pasted in second array. 
+                        Array 2 is a copy of original array and do not points to the memory location of original array. They are not pointing to the same location. 
+                        Updating the value of "copyData" will not impact the values of "originalData" Array</p>
+                    </article><br/>
+
+                    <article>
+                        <h2>Array can be Equated to another array using "=="</h2>
+                        <p>When 2 Arrays are equated to each other, following are the internal operations that are carried out.</p>
                         <ul>
-                            <li>Contants in Golang can be Implicit/Explicitely Typed</li>
-                            <li>Multiple Constants can be assigned in a Block</li>
-                            <li>Constants can copy value of above declared Contant in case of Block</li>
-                            <li>Values to the Golang Constant should be assigned at Compile Time.</li>
-                        </ul>
+                            <li>1. Length of 2 Arrays are first Compared</li>
+                            <li>2. Data Types of Arrays are Compared</li>
+                            <li>3. Each Value of Original Array is compared to second array.</li>
+                        </ul><br/>
                     </article><br/>
-                                    
-                    <article>
-                        <h2>Golang Constants can be Implicitely Typed</h2>
-                        <p>In this example, we are going to create an "Implicitely Typed" Constant variable. In the below example you can see that we have not attached any 
-                        type with the constant variable. The compiler will interpret it as "Anonymous/Untyped value".</p><br/>
-                        <img src="/images/golang/ImplicitConstant.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/>
-                        <p>In the above image, you can see that the interpretted type of variable is "untyped". This variable just act as a literal .</p>
-                    </article><br/>
-
-                    <article>
-                        <h2>Creating an Explicitely Typed Constant</h2>
-                        <p>Below Example will give you a explicitely typed Constant value. We are instructing Compiler that any operation that operated on 
-                        this variable need to consider the type safety. It brings more restriction to the code</p><br/>
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/>
-                        <p>In the above scenario, we can see now that the variable is explicitely typed to string and when you hover over the value. 
-                        It do not states "Untyped". Instead it provides the actual type of this value.</p>
-                    </article><br/>
-
-                    <article>
-                        <h2>Constants can be assigned to another Constant Values</h2>
-                        <p>Golang has no problem assigning value to contant, if it is done at compile time. If the 
-                        value of variable is not available at compile time, it will result in an error.</p><br/>
-                        <img src="/images/golang/oneConstantToOther.png" alt="Constant assigned to another Constant" title="Assigning one constant value to other constant value" /><br/><br/>
-                        <p>In the above example, the value of constant "userAge" can be assigned at compile time itself. The value will be simply copied to the variable userCorrectAge. 
-                        And hence the code will not result in an error</p>
-
-                        <p>Whereas in the below code, we can see that the value to the constant can be assigned only when the function executes (Runtime), so the following code gives us error.
-                        Values to the constant must be available at Compile Time Only</p>
-                        <img src="/images/golang/runtimeValueForConstant.png" alt="Golang Tutorials" title="Constant value should not be available during runtime" />
-                    </article>
-
-                    <article>
-                        <h2>Declaring Multiple Constants in Golang</h2>
-                        <p>We can create multiple constant value in a same block of code. Below is an example where multiple constant are created and assigned with initial value</p><br/>
-                        <img src="/images/golang/multipleConstants.png" alt="Golang Tutorials" title="Multiple Constants can be created using a Block Statement" /><br/><br/>
-                        <script src="https://gist.github.com/Mayankgupta688/a13422ba97ee5c946ff58daed1ecc424.js"></script><br/>
-
-                        <p>When the constant value declared in a block is not assigned with a value, in that case the value of constant will be same as above constant. Lets see the same with the help of an example</p>
-                        <img src="/images/golang/ConstantValueCopied.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
-                        <p>In the above code, userOtherName is assigned with value "Mayank Gupta", since the constant, is not provided with any value, it will copy the same value from above constant "userName".</p><br/>
-                        <script src="https://gist.github.com/Mayankgupta688/44d6624add98a2f5f36ad1b8de7b989e.js"></script>
-                    </article>
                 </div>
             </div>
         </section>
