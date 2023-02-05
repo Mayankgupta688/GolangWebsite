@@ -53,9 +53,15 @@ app.get('/iota-keyword-in-golang', function (_, res) {
     });
 });  
 
-app.get('/introduction-to-pointers-in-golang', function (_, res) {
-    res.render('workingWithPointers', {
-        description: "Introduction to Golang, Getting started with Go/Golang"
+app.get('/introduction-to-arrays-in-golang', function (_, res) {
+    res.render('workingWithArrays', {
+        description: "Working with Arrays in Golang. Different Array Functions in Golang"
+    });
+});
+
+app.get('/arrays-copied-by-value-in-golang', function (_, res) {
+    res.render('copyingArrays', {
+        description: "Arrays are Copied via Value in Golang."
     });
 });
 

@@ -4,7 +4,7 @@
 
         <section class="column-inner">
             <figure class="image-box">
-                <a><img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" /></a>
+                <img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
             </figure>
             <div class="lower-part">
                 <div class="post-info">

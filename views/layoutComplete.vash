@@ -6,7 +6,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0">
         <link href="./css/index.css" rel="stylesheet" media="print" onload="this.media='all'">
         <link href="./css/font-awesome.css" rel="stylesheet" media="print" onload="this.media='all'">
 
@@ -126,7 +126,7 @@
                                         <li><a href="type-conversion-in-golang" alt="Type Conversion in Golang" class="clearfix" >Go - Type Conversion in Golang</a></li>
                                         <li><a href="constant-keyword-in-golang" alt="Constants in Golang" class="clearfix" >Go - Constants in Golang</a></li>
                                         <li><a href="iota-keyword-in-golang" alt="Working with IOTA in Golang" class="clearfix" >Go - Working with "iota" Keyword</a></li>                                        
-                                        <li><a href="introduction-to-pointers-in-golang" alt="Pointers in Golang" class="clearfix" >Go - Working with Arrays in Golang</a></li>                                        
+                                        <li><a href="introduction-to-arrays-in-golang" alt="Pointers in Golang" class="clearfix" >Go - Working with Arrays in Golang</a></li>                                        
                                     </ul>
                                 </div>
                                 <div class="widget recent-posts wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">

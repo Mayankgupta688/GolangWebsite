@@ -1,0 +1,91 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <section class="column-inner">
+            <figure class="image-box">
+                <img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+            </figure>
+            <div class="lower-part">
+                <div class="post-info"><span>JANUARY 13, 2023</span> <span class="bullet">&bull;</span> <span>TechnoFunnel</span> <span class="bullet">&bull;</span> <span>BY MAYANK GUPTA</span></div>
+                <div class="post-title">
+                    <h1>Arrays are Copied by Value in Golang</h1>
+                </div>
+
+                <div class="post-text">
+                    <br />
+                    <article>
+                        <h2>Assigning One Array to Another</h2>
+                        <p>
+                            In this article, we will understand the Copy or assignment operation for Arrays. In the below code we will create an array with some sample value and copy that array in a new array using an assignment operator. Once assignment is
+                            done, we will try to update the value of new Array and observe the ouput.
+                        </p>
+                        <br />
+                        <script alt="https://gist.github.com/Mayankgupta688/4bbead5e00711a664685fa200cae1155" src="https://gist.github.com/Mayankgupta688/4bbead5e00711a664685fa200cae1155.js"></script>
+                        <br />
+                        <p>
+                            Lets observe the output of above code, we are using assignment operator to assign the value of "arr" to "copyArray" variable. Once assignment is done, we are changing the value of element at the first index of "copyArray". Once we
+                            print both "arr" and "copyArray" values, we observe that the two arrays are distinct from each other.
+                        </p>
+                        <br />
+                        <img src="/images/golang/copyArray.png" alt="Golang Tutorials" title="Copy Array value to another array using assignment operator" /><br />
+                        <br />
+
+                        <h2>Why the values of 2 Arrays are different</h2>
+                        <p>
+                            When the array is copied via assignment operator, We are copying each value of array to a separate array at different memory location. A new memory space is created for the array "copyArray" and each vale is copied to the new
+                            memory location. Since both of them points to different memory location, therefore change in value of one array do not impact the value of other array.
+                        </p>
+                    </article>
+                    <br /><hr/><br/>
+
+                    <article>
+                        <h2>How to Copy Arrays via Reference in Golang</h2>
+                        <p>
+                            In this section, we are going to talk about copying the array via reference. When we copy a value by reference, it means that we are copying the
+                            address of first array to a new array. Now both the arrays will point to the same memory location. Any change in the value of one array will bring the change to other,
+                            since both of them points to the same memory location. Such type of operation is called as "Copy By Reference".<br/><br/>
+
+                            In order to copy array by reference, we need to copy the memory location of first element of array "arr" and assign the same memory location to another variable "copyArray". To do the same,
+                            we can use Pointers. in order to extract the memory location of array "arr", we will use "&arr", and assign the extracted memory location to "copyArray". Lets see this in action.<br/>
+
+                            <script alt="https://gist.github.com/Mayankgupta688/42b44e4e10f899a3ecef643d6ec74700" src="https://gist.github.com/Mayankgupta688/42b44e4e10f899a3ecef643d6ec74700.js"></script>
+
+                            <img src="/images/golang/copyArrayByReference.png" alt="How to copy Array by reference in Golang" title="Copy Array by Reference in Golang" /><br />
+                        </p>
+                        <br />
+                        <p>
+                            Now in above code, when the changes are made to "copyArray", it points towards the original array itself. So any change in the value of "copyArray" brought the same changes to "arr". This is how 
+                            we can copy an array by reference.
+                        </p>
+                    </article>
+                    <br /><hr/><br/>
+
+                    <article>
+                        <h2>Array can be Equated to another array using "=="</h2>
+                        <p>We use "==" operator, in order to check for the equality. In this section we will figure out the impact of equating two arrays with each other. 
+                        When 2 Arrays are equated to each other, following are the internal operations that are carried out in order to check for equality. Checking equality in array is carried by following logical steps:</p>
+                        <ul>
+                            <li>1. Length of 2 Arrays are first Compared</li>
+                            <li>2. Data Types of Arrays are Compared</li>
+                            <li>3. Each Value of Original Array is compared to second array.</li>
+                        </ul>
+                        <br />
+
+                        <img src="/images/golang/equateError.png" alt="Equating 2 arrays of different length" title="Equating 2 arrays of different length" /><br /><br />
+
+                        <p>In the above code, we can see that the 2 arrays are different in length, as soon as the array is compared, the first operation is to calculate the length of each array. If the length is not equal, the 
+                        equate operator will result in error during the operation.</p><br/>
+
+                        <img src="/images/golang/equateError.png" alt="Equating 2 arrays of different length" title="Equating 2 arrays of different length" /><br /><br />
+                        <p>Now in the above code, although the length of array is same, yet the data types in the 2 arrays are different, the data type of "arr" is "int" whereas the data type of "otherArray" is "string".
+                        Since there is type mismatch, the two values cannot be equated and results in failure. </p>
+
+                        <b>So in case, all the above 3 conditions are satisfied, then once the operation will result in "true".</b>
+                    
+                    </article>
+                    <br />
+                </div>
+            </div>
+        </section>
+
+    })
+})
