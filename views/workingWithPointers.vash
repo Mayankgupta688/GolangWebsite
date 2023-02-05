@@ -16,30 +16,34 @@
                     <article>
                         <h2>How to use Arrays in Golang: </h2>
                         <p>Array is a fixed size collection of data elements of same type. It contains related set of Data. Arrays are declared as variables</p><br/>
-                        <code>var arr [3]int</code>
-                        <p>In the Above code we are declaring array of 3 Integers having a default value as 0, since default value of "int" in golang is 0. 
-                        Given below is the memory representation for the array</p>     
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/> 
-                    </article>
+                        <script alt="https://gist.github.com/Mayankgupta688/923dff37bbb19983867544798b9284e3" src="https://gist.github.com/Mayankgupta688/923dff37bbb19983867544798b9284e3.js"></script><br/>
+                        <p>In the Above code we are declaring Array of Integer Type having length of 3. When Array of "int" type is created, the default value will be assigned as 0.
+                        Given below is the output of the code specified above. We are using "fmt.Println" to display the result of array elements.</p><br/>
+                        <img src="/images/golang/arrayOutput.png" alt="Golang Tutorials" title="Creating Arrays in Golang" /><br/> 
+                    </article><br/><hr/><br/>
 
                     <article>
                         <h2>Declaring Array in Golang using Array Literal</h2>
-                        <p>Another way to declare array in Golang is to use array literal. In the below code we have created a new array containing 
+                        <p>Another way to declare array in Golang is to use array literal. In the earlier code, we were creating array of length 3 with default value as 0. We can also use Array Literals, 
+                        to create a n array with some defined value other than default value "0". In the below code we have created a new array using Array Literal containing 
                         3 values. The value at index 0 is 10, value at index 1 is 20 and value at index 2 is 30. </p><br/>
-                        <code>arr = [3]int{10, 20, 30}</code>
+                        <script alt="https://gist.github.com/Mayankgupta688/37d1777ca1cf85f92988427eec8965cf" src="https://gist.github.com/Mayankgupta688/37d1777ca1cf85f92988427eec8965cf.js"></script>
                         <p>We can access the value of an array using the index. As given in the above code, we can access the value 10 by using the following
                         code. "arr[0]" represents value at index 0 which is equal to 10.</p>     
-                        <img src="/images/golang/implicitTyped.png" alt="Golang Tutorials" title="Golang Populality and Scope" /><br/> 
-                    </article>
+                        <img src="/images/golang/arrayLiteral.png" alt="Golang Tutorials" title="Array Literals in Golang" /><br/> 
+                    </article><br/><hr/><br/>
 
                     <article>
-                        <h2>Getting the Length of Array</h2>
-                        <p>We can simply get the length of array by using the "len" function. The code below specifies the simple code to extract the length of an array.</p>
-                    </article><br/>
+                        <h2>Getting the Length of Array in Golang</h2>
+                        <p>Once the array is created and we would like to extract the length of an array, we can simply do the same using "len" function. "len" function can be used with Array of any type. 
+                        In the code below, we will be using the "len" keyword, to extract the length of the string array.</p>
+                        <script alt="https://gist.github.com/Mayankgupta688/4a7d5baf8c5c6e47f243e17bd52e90c1" src="https://gist.github.com/Mayankgupta688/4a7d5baf8c5c6e47f243e17bd52e90c1.js"></script>
+                        <img src="/images/golang/findingLength.png" alt="Golang Tutorials" title="Finding Length of an Array" /><br/> 
+                    </article><br/><hr/><br/>
 
                     <article>
                         <h2>Arrays are Copied by Value</h2>
-                        <p>Assignement of Array to another variable is a copy operation. In this case a copy operation is carried out and the values are pasted in second array. 
+                        <p>Assignment of Array to another variable is a copy operation. In this case a copy operation is carried out and the values are pasted in second array. 
                         Array 2 is a copy of original array and do not points to the memory location of original array. They are not pointing to the same location. 
                         Updating the value of "copyData" will not impact the values of "originalData" Array</p>
                     </article><br/>

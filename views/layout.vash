@@ -9,10 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="./css/index.css" rel="stylesheet" media="print" onload="this.media='all'">
         <link href="./css/font-awesome.css" rel="stylesheet" media="print" onload="this.media='all'">
-
-        <meta name="description" content="Get started with Golang Tutorials. Contains all the concepts related to Golang."/>
-
-
+        <meta name="description" content="@model.description"/>
     </head>
 
     <body>
@@ -44,7 +41,7 @@
                         <!--Outer Box-->
                         <div class="outer-box clearfix">
                             <div class="logo">
-                                <a href="index.html"><img style="width: 275px;" src="images/technofunnel-logo.jpg" alt="Getting Started with Go (Golang)"></a>
+                                <a href="https://technofunnel.in/home.html"><img style="width: 275px;" src="images/technofunnel-logo.jpg" alt="Getting Started with Go (Golang)"></a>
                             </div>
                             <div class="search-box-btn"><span class="icon fa fa-search"></span></div>
                             <div class="nav-toggler">
@@ -79,7 +76,7 @@
                 </div>
                 <div class="hidden-bar-wrapper">
                     <div class="logo text-center">
-                        <a href="index.html"><img src="images/technofunnel-logo.jpg" alt="Golang Introduction"></a>
+                        <a href="https://technofunnel.in/home.html"><img src="images/technofunnel-logo.jpg" alt="Golang Introduction"></a>
                     </div>
                     <div class="side-menu">
                         <ul class="navigation">
@@ -136,17 +133,17 @@
                                     <div class="post">
                                         <div class="post-thumb"><a href="https://medium.com/p/d77db7ae3875"><img src="/images/golang/golang-image.png" alt="Error Handling in Golang" title="Error Handling in Golang" /></a></div>
                                         <h4><a href="https://medium.com/p/d77db7ae3875">Error Handling in Golang with Panic, Defer, and “Recover”</a></h4>
-                                        <div class="post-info"><a href="https://medium.com/p/d77db7ae3875"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <a ><span class="icon flaticon-speechbubble21"></span> 19</a></div>
+                                        <div class="post-info"><a href="https://medium.com/p/d77db7ae3875"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <span><span class="icon flaticon-speechbubble21"></span> 19</span></div>
                                     </div>
                                     <div class="post">
                                         <div class="post-thumb"><a href="https://medium.com/p/9c5a28f08e0d"><img src="/images/golang/golang-image.png" alt="Getting Started With Golang Channels" title="Getting Started With Golang Channels" /></a></div>
                                         <h4><a href="https://medium.com/p/9c5a28f08e0d">Getting Started With Golang Channels</a></h4>
-                                        <div class="post-info"><a href="https://medium.com/p/9c5a28f08e0d"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <a ><span class="icon flaticon-speechbubble21"></span> 19</a></div>
+                                        <div class="post-info"><a href="https://medium.com/p/9c5a28f08e0d"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <span><span class="icon flaticon-speechbubble21"></span> 19</span></div>
                                     </div>
                                     <div class="post">
                                         <div class="post-thumb"><a href="https://medium.com/p/72ac3c9a014d"><img src="/images/golang/golang-image.png" alt="Understanding Golang and Goroutines" title="Understanding Golang and Goroutines" /></a></div>
                                         <h4><a href="https://medium.com/p/72ac3c9a014d">Understanding Golang and Goroutines</a></h4>
-                                        <div class="post-info"><a href="https://medium.com/p/72ac3c9a014d"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <a ><span class="icon flaticon-speechbubble21"></span> 19</a></div>
+                                        <div class="post-info"><a href="https://medium.com/p/72ac3c9a014d"><span class="icon flaticon-hour12"></span> JAN 22, 2015</a> <span><span class="icon flaticon-speechbubble21"></span> 19</span></div>
                                     </div>
                                 </div>
                             </aside>
@@ -230,14 +227,14 @@
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 column">
                                         <div class="footer-widget about-widget">
-                                            <div class="logo"><a ><img src="images/technofunnel-logo.jpg" alt=""></a></div>
+                                            <div class="logo"><a href="https://technofunnel.in/home.html"><img src="images/technofunnel-logo.jpg" alt=""></a></div>
                                             <p style="color: white !important">Alternatively if you have a specific service or question in mind please don’t hesitate to contact us.</p>
                                             <br>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12 column">
                                         <div class="footer-widget links-widget">
-                                            <h2>OUR SERVICE LIST</h2>
+                                            <h2 style="color: white !important;">OUR SERVICE LIST</h2>
                                             <ul>
                                                 <li style="color: white !important;">Srategy Planning</li>
                                                 <li style="color: white !important;">Website / Logo Conception</li>
@@ -255,22 +252,22 @@
                                     <!--Footer Column-->
                                     <div class="col-md-6 col-sm-6 col-xs-12 column twitterTweet">
                                         <div class="footer-widget twitter-feeds">
-                                            <h2>Twitter Feeds</h2>
+                                            <h2 style="color: white !important;">Twitter Feeds</h2>
                                             <div class="feed">
                                                 <div class="icon"><span class="fa fa-twitter"></span></div>
-                                                <div class="feed-content"><a class="tweetContentOne">envato Creating a new theme for the real estate section</a></div>
+                                                <div class="feed-content"><a  href="https://medium.com/p/d77db7ae3875" class="tweetContentOne">Error Handling in Golang with Panic, Defer, and “Recover”</a></div>
                                                 <div class="time tweetContentOneDate">#12 mins ago</div>
                                             </div>
                                             <div class="feed">
                                                 <div class="icon"><span class="fa fa-twitter"></span></div>
-                                                <div class="feed-content"><a class="tweetContentTwo">envato Creating a new theme for the real estate section</a></div>
+                                                <div class="feed-content"><a  href="https://medium.com/p/9c5a28f08e0d" class="tweetContentTwo">Getting Started With Golang Channels</a></div>
                                                 <div class="time tweetContentTwoDate">#15 mins ago</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12 column">
                                         <div class="footer-widget contact-widget">
-                                            <h2>Contact Us</h2>
+                                            <h2 style="color: white !important;">Contact Us</h2>
                                             <ul>
                                                 <li style="color: white !important"><span class="icon flaticon-location74"></span>A-8, Milansar Appartment, Rohini-14, Delhi-85, India</li>
                                                 <li style="color: white !important"><span class="icon flaticon-earth53"></span> <a target="_blank" href="https://technofunnel.in/">https://technofunnel.in/</a></li>
@@ -310,11 +307,11 @@
                     <br>
                     <h3>Recent Search Keywords</h3>
                     <ul class="recent-searches">
-                        <li><a >Business</a></li>
-                        <li><a >Web Development</a></li>
-                        <li><a >SEO</a></li>
-                        <li><a >Logistics</a></li>
-                        <li><a >Freedom</a></li>
+                        <li>Business</li>
+                        <li>Web Development</li>
+                        <li>SEO</li>
+                        <li>Logistics</li>
+                        <li>Freedom</li>
                     </ul>
                 </div>
             </div>
