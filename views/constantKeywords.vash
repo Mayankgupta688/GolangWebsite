@@ -6,7 +6,7 @@
             </figure>
             <div class="lower-part">
                 <div class="post-info">
-                    <a>JANUARY 13, 2023</a> <span class="bullet">&bull;</span> <a>TechnoFunnel</a> <span class="bullet">&bull;</span> <a>BY MAYANK GUPTA</a>
+                    <span>JANUARY 13, 2023</span> <span class="bullet">&bull;</span> <span>TechnoFunnel</span> <span class="bullet">&bull;</span> <span>BY MAYANK GUPTA</span>
                 </div>
                 <div class="post-title">
                     <h1>Constant Keywords in Golang (Go)</h1>
