@@ -29,7 +29,7 @@
                         <img src="/images/golang/copyArray.png" alt="Golang Tutorials" title="Copy Array value to another array using assignment operator" /><br />
                         <br />
 
-                        <h2>Why the values of 2 Arrays are different</h2>
+                        <h3>Why the values of 2 Arrays are different</h3>
                         <p>
                             When the array is copied via assignment operator, We are copying each value of array to a separate array at different memory location. A new memory space is created for the array "copyArray" and each vale is copied to the new
                             memory location. Since both of them points to different memory location, therefore change in value of one array do not impact the value of other array.
@@ -75,7 +75,7 @@
                         <p>In the above code, we can see that the 2 arrays are different in length, as soon as the array is compared, the first operation is to calculate the length of each array. If the length is not equal, the 
                         equate operator will result in error during the operation.</p><br/>
 
-                        <img src="/images/golang/equateError.png" alt="Equating 2 arrays of different length" title="Equating 2 arrays of different length" /><br /><br />
+                        <img src="/images/golang/mismatchTypes.png" alt="Equating 2 arrays of different length" title="Equating 2 arrays of different length" /><br /><br />
                         <p>Now in the above code, although the length of array is same, yet the data types in the 2 arrays are different, the data type of "arr" is "int" whereas the data type of "otherArray" is "string".
                         Since there is type mismatch, the two values cannot be equated and results in failure. </p>
 

@@ -1,0 +1,74 @@
+@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <section class="column-inner">
+            <figure class="image-box">
+                <img src="/images/golang/golang.png" alt="Golang Tutorials" title="Golang Populality and Scope" />
+            </figure>
+            <div class="lower-part">
+                <div class="post-info"><span>JANUARY 13, 2023</span> <span class="bullet">&bull;</span> <span>TechnoFunnel</span> <span class="bullet">&bull;</span> <span>BY MAYANK GUPTA</span></div>
+                <div class="post-title">
+                    <h1>Passing Data as Function Parameter</h1>
+                </div>
+
+                <div class="post-text">
+                    <br />
+
+                    <article>
+                        <h2>By Default, Parameters are Sent by Value</h2>
+                        <p>
+                            In the code below, we are creating a simple function, that accepts a string value as an input and updates the string value. We will look for whether the updated value has any impact on the original value or not. We need to see
+                            whether the variable is passed by reference or value. If the variable is passed by reference, the change of data in called function is going to impact the original data. If the value is sent by vaue, no imoact on the original data
+                            would be there. Lets try to interpret the same using a sample function.
+                        </p>
+                        <br />
+                        <script src="https://gist.github.com/Mayankgupta688/64dd3bbe992a7bcd046dd5077c52dd5a.js" alt="https://gist.github.com/Mayankgupta688/64dd3bbe992a7bcd046dd5077c52dd5a"></script>
+
+                        <img src="/images/golang/sendingStringBYValue.png" alt="Golang Tutorials" title="Array Literals in Golang" /><br />
+                        <p>
+                            As we can see that the original value is still, the same, we can conclude that a copy of string value is sent to the function rather than sending the reference to original string. A new variable with a separate memory location is
+                            created and sent to the function, so change in the copy will not impact the original data.
+                        </p>
+                    </article>
+                    <br />
+                    <hr />
+                    <br />
+
+                    <article>
+                        <h2>Arrays are also Passed to Function by Value</h2>
+                        <p>
+                            Parameters are sent by Value to a golang Function. If we are sending parameter to a golang function, it will create a copy of data and send the copy, rather than sending the reference (memory location) of the parameter. A copy of
+                            original data is received in the code rather than receiving the original Property. Now lets look for the same, by sending an "int" value to a function.
+                        </p>
+                        <br />
+                        <script src="https://gist.github.com/Mayankgupta688/8d1818bc0e3ac2b37421f1be91c107f0.js" alt="https://gist.github.com/Mayankgupta688/8d1818bc0e3ac2b37421f1be91c107f0"></script>
+                        <p>
+                            In the above code, we have send "int" array to "updateData" function. The values received as array in the function is updated to new values and displayed on the screen. Now if we look for the original array in the "main" function,
+                            we will observe that the original value in the array "arr" do not changes. Enclosed the output of the code below.
+                        </p>
+                        <br />
+                        <img src="/images/golang/parameterByValue.png" alt="Golang Tutorials" title="Parameter sent to Golang Function by Value" /><br />
+
+                        <p>
+                            As we try to analyze what happened in the above code, we can see that the value sent to the function was actually sent by value. A copy of original array "arr" was created and sent to the function "updateData". "updateData"
+                            function updated the values but it didn't impact the original array "arr", since original array was not sent to the function
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+
+                        <h2>String Arrays are also Passed to Function by Value</h2>
+                        <br />
+                        <script src="https://gist.github.com/Mayankgupta688/24b0127231c7be363c86ef744839b818.js" alt="https://gist.github.com/Mayankgupta688/24b0127231c7be363c86ef744839b818"></script>
+                        <p>
+                            Lets try to do the same by sending string array instead of integer. In the code above we will try to observe whether similar behaviour happens with the string array or not. If the original array do not update, then we can conclude
+                            that even string arrays are sent by reference. Lets look for the output of the above code.
+                        </p>
+                        <br />
+                        <img src="/images/golang/sendingStringByValueToFunction.png" alt="Golang Tutorials" title="Sending String array by value in function" /><br />
+                        <p>Looking at the code above, we can conclude that the similar behaviour happens with "string" array as well. Even "string" arrays are sent by value in Golang.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    })
+})
